@@ -46,7 +46,6 @@ All analyses were performed in the following computational environment:
 
 - **R version:** 4.5.3 (2026-03-11)  
 - **Platform:** x86_64-w64-mingw32 (Windows 11 x64)  
-- **Time zone:** Asia/Qyzylorda  
 
 ---
 
