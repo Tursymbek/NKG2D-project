@@ -38,3 +38,47 @@ Outliers are excluded from visualization in the final plot for clarity; however,
 
 - All analyses were performed in R.
 - Raw large-scale datasets (e.g., TCGA/GTEx expression matrices) are not included in this repository due to size limitations.
+
+
+## Environment
+
+All analyses were performed in the following computational environment:
+
+- **R version:** 4.5.3 (2026-03-11)  
+- **Platform:** x86_64-w64-mingw32 (Windows 11 x64)  
+- **Time zone:** Asia/Qyzylorda  
+
+---
+
+## Key Packages
+
+The following R packages were used for data processing, annotation, and visualization:
+
+- data.table (v1.18.2.1)  
+- readxl (v1.4.5)  
+- dplyr (v1.2.0)  
+- ggplot2 (v4.0.2)  
+- org.Hs.eg.db (v3.21.0)  
+- AnnotationDbi (v1.70.0)  
+
+Bioconductor dependencies:
+- BiocGenerics (v0.54.1)  
+- Biobase (v2.68.0)  
+- IRanges (v2.42.0)  
+- S4Vectors (v0.46.0)  
+
+---
+
+## Reproducibility
+
+Full session information (including all loaded namespaces and dependencies) is available in:
+
+- `sessionInfo.txt`
+
+---
+
+## Notes
+
+- Analyses were performed using standard R workflows for transcriptomic data processing and visualization.  
+- Gene annotation was performed using Bioconductor packages (`org.Hs.eg.db`, `AnnotationDbi`).  
+- Visualization was generated using `ggplot2`.  
