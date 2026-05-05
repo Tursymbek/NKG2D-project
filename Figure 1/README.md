@@ -34,12 +34,6 @@ Outliers are excluded from visualization in the final plot for clarity; however,
 
 ---
 
-## Notes
-
-- All analyses were performed in R.
-- Raw large-scale datasets (e.g., TCGA/GTEx expression matrices) are not included in this repository due to size limitations.
-
-
 ## Environment
 
 All analyses were performed in the following computational environment:
@@ -68,16 +62,11 @@ Bioconductor dependencies:
 
 ---
 
-## Reproducibility
-
-Full session information (including all loaded namespaces and dependencies) is available in:
-
-- `sessionInfo.txt`
-
----
-
 ## Notes
 
+- All analyses were performed in R.
+- Raw large-scale datasets (e.g., TCGA/GTEx expression matrices) are not included in this repository due to size limitations.
 - Analyses were performed using standard R workflows for transcriptomic data processing and visualization.  
 - Gene annotation was performed using Bioconductor packages (`org.Hs.eg.db`, `AnnotationDbi`).  
-- Visualization was generated using `ggplot2`.  
+- Visualization was generated using `ggplot2`.
+
