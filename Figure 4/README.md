@@ -8,6 +8,25 @@ The primary objective of this workflow is to identify transcription factors that
 
 ---
 
+## Selection of Transcription Factors
+
+The initial list of candidate transcription factors was derived from Taiji analysis and included the following TOP30 TFs:
+
+TP53, STAT3, SP1, RUNX1, RXRA, CEBPB, RARA, CREB1, SPI1, SRF, TAL1, TCF12, CEBPA, TCF4, POU5F1, RUNX3, FLI1, TCF3, MYC, KLF5, RUNX2, RXRG, RXRB, GATA4, FOXO3, ASCL1, E2F1, ATF4, FOXO1, SREBF1.
+
+However, not all transcription factors had available or suitable ChIP-seq datasets in the ENCODE database under the applied filtering criteria (human, cancer cell lines, processed peak files).
+
+Therefore, the final analysis was restricted to transcription factors for which ENCODE ChIP-seq peak files were available and successfully downloaded:
+
+SP1, TP53, CEBPB, CREB1, SRF, RARA, RXRA, STAT3, RUNX1, SPI1, TAL1, TCF12, CEBPA, TCF4, POU5F1, TCF3, MYC, RXRB, GATA4, E2F1, ATF4, FOXO1, SREBF1.
+
+Transcription factors excluded from the analysis due to lack of suitable ENCODE datasets included:
+
+RUNX3, FLI1, KLF5, RUNX2, RXRG, FOXO3, ASCL1.
+
+This filtering step ensures that all analyzed TFs are supported by experimentally validated ChIP-seq data within a consistent dataset framework.
+---
+
 ## Data Source and Preprocessing
 
 The analysis is based on processed ChIP-seq peak files downloaded from the ENCODE portal. The dataset was restricted to human TF ChIP-seq experiments performed in cancer cell lines, and only processed peak files in `.bed.gz` format were retained for downstream analysis. Other file types such as BAM, bigWig, and bigBed were excluded, as they are not required for genomic overlap analysis.
@@ -110,7 +129,7 @@ Minor differences between recent GENCODE versions are not expected to significan
 
 ---
 
-## Output Files
+## Output Files 
 
 ### Long-format results
 
@@ -209,7 +228,7 @@ To reproduce the analysis:
 5. Run:
 
 ```r
-source("script.R")
+source("TF_ChIPseq_NKG2DL_promoter_overlap.R")
 ```
 
 The script will automatically detect input files, perform overlap analysis, and generate all output tables and figures.
