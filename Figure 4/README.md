@@ -103,7 +103,7 @@ Minor differences between recent GENCODE versions are not expected to significan
 
    ```r
    findOverlaps(promoters_gr, peaks_gr)
-````
+   ```
 
 5. **Aggregation**
    Overlapping peaks are counted for each TF–gene pair across all files and cell lines.
