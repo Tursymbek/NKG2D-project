@@ -1,0 +1,117 @@
+# =========================================================
+# DepMap: NKG2D ligand score distribution
+# =========================================================
+
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+
+expr_file  <- "OmicsExpressionTPMLogp1HumanProteinCodingGenes.csv"
+model_file <- "Model.csv"
+
+expr  <- fread(expr_file, data.table = FALSE)
+model <- fread(model_file, data.table = FALSE)
+
+colnames(expr)[1] <- "ModelID"
+
+# Clean gene names: "MICA (100507436)" -> "MICA"
+colnames(expr)[-1] <- str_replace(colnames(expr)[-1], "\\s*\\(.*\\)$", "")
+
+# Remove duplicated gene columns
+expr <- expr[, !duplicated(colnames(expr))]
+
+nkg2d_genes <- c(
+    "MICA", "MICB",
+    "ULBP1", "ULBP2", "ULBP3",
+    "RAET1E", "RAET1G", "RAET1L"
+)
+
+present_genes <- intersect(nkg2d_genes, colnames(expr))
+missing_genes <- setdiff(nkg2d_genes, colnames(expr))
+
+print("Present genes:")
+print(present_genes)
+
+print("Missing genes:")
+print(missing_genes)
+
+if (length(present_genes) == 0) {
+    stop("No NKG2D ligand genes found.")
+}
+
+expr_score <- expr %>%
+    mutate(
+        NKG2DL_score = rowMeans(
+            as.matrix(dplyr::select(., all_of(present_genes))),
+            na.rm = TRUE
+        )
+    )
+
+meta_cols <- intersect(
+    c(
+        "ModelID",
+        "CellLineName",
+        "StrippedCellLineName",
+        "CCLEName",
+        "OncotreeLineage",
+        "OncotreePrimaryDisease",
+        "OncotreeSubtype"
+    ),
+    colnames(model)
+)
+
+expr_score$ModelID <- as.character(expr_score$ModelID)
+model$ModelID <- as.character(model$ModelID)
+
+plot_df <- expr_score %>%
+    dplyr::select(ModelID, all_of(present_genes), NKG2DL_score) %>%
+    left_join(model[, meta_cols, drop = FALSE], by = "ModelID")
+
+fwrite(plot_df, "DepMap_NKG2DL_score_all_cell_lines.tsv", sep = "\t")
+
+# Colors like your image
+main_blue <- "#3A9FD1"
+dark_blue <- "#1F5F7A"
+
+# Histogram
+p_hist <- ggplot(plot_df, aes(x = NKG2DL_score)) +
+    geom_histogram(
+        bins = 60,
+        fill = main_blue,
+        color = "white",
+        linewidth = 0.25
+    ) +
+    theme_classic(base_size = 15) +
+    labs(
+        title = "Distribution of NKG2D ligand score across DepMap cell lines",
+        x = "NKG2D ligand score",
+        y = "Number of cell lines"
+    ) +
+    theme(
+        plot.title = element_text(face = "bold"),
+        axis.title = element_text(face = "bold"),
+        axis.text = element_text(color = "black")
+    )
+
+ggsave(
+    "DepMap_NKG2DL_score_distribution_histogram.png",
+    p_hist,
+    width = 8,
+    height = 5,
+    dpi = 300
+)
+
+# Top / bottom
+top_lines <- plot_df %>%
+    arrange(desc(NKG2DL_score)) %>%
+    head(30)
+
+bottom_lines <- plot_df %>%
+    arrange(NKG2DL_score) %>%
+    head(30)
+
+fwrite(top_lines, "Top30_NKG2DL_high_cell_lines.tsv", sep = "\t")
+fwrite(bottom_lines, "Top30_NKG2DL_low_cell_lines.tsv", sep = "\t")
+
+cat("Done\n")
