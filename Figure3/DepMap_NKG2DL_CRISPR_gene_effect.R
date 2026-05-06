@@ -1,7 +1,6 @@
 # =========================================================
 # DepMap: Essentiality of NKG2D ligands
-# File needed: CRISPRGeneEffect.csv
-# Colors: same blue style as previous graph
+# File needed: CRISPRGeneEffect.csv, Model.csv
 # Gene labels: MICA, MICB, ULBP1, ULBP2, ULBP3, ULBP4, ULBP5, ULBP6
 # =========================================================
 
