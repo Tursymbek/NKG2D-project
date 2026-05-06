@@ -1,0 +1,1684 @@
+File	TF	CellLine	Assay	Target	Lab	OutputType
+ENCFF001TRO	CEBPB	A549	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001TRP	CEBPB	A549	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001TRQ	CREB1	A549	TF ChIP-seq	CREB1-human	Richard Myers, HAIB	peaks
+ENCFF001TRR	CREB1	A549	TF ChIP-seq	CREB1-human	Richard Myers, HAIB	peaks
+ENCFF001TTP	SP1	A549	TF ChIP-seq	SP1-human	Richard Myers, HAIB	peaks
+ENCFF001TTQ	SP1	A549	TF ChIP-seq	SP1-human	Richard Myers, HAIB	peaks
+ENCFF001TTT	TCF12	A549	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001TTU	TCF12	A549	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001TUH	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001TUI	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001TUJ	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	Richard Myers, HAIB	peaks
+ENCFF001TUK	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	Richard Myers, HAIB	peaks
+ENCFF001TVN	SRF	Ishikawa	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001TVO	SRF	Ishikawa	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001TVR	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001TVS	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001UDO	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001UDP	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001UEK	SP1	HCT116	TF ChIP-seq	SP1-human	Richard Myers, HAIB	peaks
+ENCFF001UEL	SP1	HCT116	TF ChIP-seq	SP1-human	Richard Myers, HAIB	peaks
+ENCFF001UEM	SRF	HCT116	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001UEN	SRF	HCT116	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001UFI	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001UFJ	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001UFM	CREB1	HepG2	TF ChIP-seq	CREB1-human	Richard Myers, HAIB	peaks
+ENCFF001UFN	CREB1	HepG2	TF ChIP-seq	CREB1-human	Richard Myers, HAIB	peaks
+ENCFF001UHI	RXRA	HepG2	TF ChIP-seq	RXRA-human	Richard Myers, HAIB	peaks
+ENCFF001UHJ	RXRA	HepG2	TF ChIP-seq	RXRA-human	Richard Myers, HAIB	peaks
+ENCFF001UHM	SP1	HepG2	TF ChIP-seq	SP1-human	Richard Myers, HAIB	peaks
+ENCFF001UHN	SP1	HepG2	TF ChIP-seq	SP1-human	Richard Myers, HAIB	peaks
+ENCFF001UHQ	SRF	HepG2	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001UHR	SRF	HepG2	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001UHU	TCF12	HepG2	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001UHV	TCF12	HepG2	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001UIQ	SPI1	HL-60	TF ChIP-seq	SPI1-human	Richard Myers, HAIB	peaks
+ENCFF001UIR	SPI1	HL-60	TF ChIP-seq	SPI1-human	Richard Myers, HAIB	peaks
+ENCFF001UJE	CEBPB	K562	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001UJF	CEBPB	K562	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001UJI	CREB1	K562	TF ChIP-seq	CREB1-human	Richard Myers, HAIB	peaks
+ENCFF001UJJ	CREB1	K562	TF ChIP-seq	CREB1-human	Richard Myers, HAIB	peaks
+ENCFF001UKV	SPI1	K562	TF ChIP-seq	SPI1-human	Richard Myers, HAIB	peaks
+ENCFF001UKW	SPI1	K562	TF ChIP-seq	SPI1-human	Richard Myers, HAIB	peaks
+ENCFF001ULF	SP1	K562	TF ChIP-seq	SP1-human	Richard Myers, HAIB	peaks
+ENCFF001ULG	SP1	K562	TF ChIP-seq	SP1-human	Richard Myers, HAIB	peaks
+ENCFF001ULJ	SRF	K562	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001ULK	SRF	K562	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001UMJ	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001UMK	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	Richard Myers, HAIB	peaks
+ENCFF001UNR	SRF	MCF-7	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001UNS	SRF	MCF-7	TF ChIP-seq	SRF-human	Richard Myers, HAIB	peaks
+ENCFF001UNV	TCF12	MCF-7	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001UNW	TCF12	MCF-7	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001UQB	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	Richard Myers, HAIB	peaks
+ENCFF001UQC	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	Richard Myers, HAIB	peaks
+ENCFF001UQH	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001UQI	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	Richard Myers, HAIB	peaks
+ENCFF001USU	MYC	HeLa-S3	TF ChIP-seq	MYC-human	Vishwanath Iyer, UTA	peaks
+ENCFF001USX	MYC	HepG2	TF ChIP-seq	MYC-human	Vishwanath Iyer, UTA	peaks
+ENCFF001UTC	MYC	K562	TF ChIP-seq	MYC-human	Vishwanath Iyer, UTA	peaks
+ENCFF001UTK	MYC	MCF-7	TF ChIP-seq	MYC-human	Vishwanath Iyer, UTA	peaks
+ENCFF001UTL	MYC	MCF-7	TF ChIP-seq	MYC-human	Vishwanath Iyer, UTA	peaks
+ENCFF001UTM	MYC	MCF-7	TF ChIP-seq	MYC-human	Vishwanath Iyer, UTA	peaks
+ENCFF001UTN	MYC	MCF-7	TF ChIP-seq	MYC-human	Vishwanath Iyer, UTA	peaks
+ENCFF001VDN	CEBPB	A549	TF ChIP-seq	CEBPB-human	Michael Snyder, Stanford	peaks
+ENCFF001VDO	MYC	A549	TF ChIP-seq	MYC-human	Michael Snyder, Stanford	peaks
+ENCFF001VIA	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	Michael Snyder, Stanford	peaks
+ENCFF001VID	MYC	HeLa-S3	TF ChIP-seq	MYC-human	Sherman Weissman, Yale	peaks
+ENCFF001VIE	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	Peggy Farnham, USC	peaks
+ENCFF001VIM	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	Peggy Farnham, USC	peaks
+ENCFF001VJJ	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	Michael Snyder, Stanford	peaks
+ENCFF001VJX	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	Michael Snyder, Stanford	peaks
+ENCFF001VJZ	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	Michael Snyder, Stanford	peaks
+ENCFF001VKZ	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	Michael Snyder, Stanford	peaks
+ENCFF001VLA	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	Sherman Weissman, Yale	peaks
+ENCFF001VMI	CEBPB	K562	TF ChIP-seq	CEBPB-human	Michael Snyder, Stanford	peaks
+ENCFF001VMQ	MYC	K562	TF ChIP-seq	MYC-human	Sherman Weissman, Yale	peaks
+ENCFF001VMR	MYC	K562	TF ChIP-seq	MYC-human	Sherman Weissman, Yale	peaks
+ENCFF001VMS	MYC	K562	TF ChIP-seq	MYC-human	Michael Snyder, Stanford	peaks
+ENCFF001VMT	MYC	K562	TF ChIP-seq	MYC-human	Sherman Weissman, Yale	peaks
+ENCFF001VMU	MYC	K562	TF ChIP-seq	MYC-human	Michael Snyder, Stanford	peaks
+ENCFF001VMV	MYC	K562	TF ChIP-seq	MYC-human	Sherman Weissman, Yale	peaks
+ENCFF001VOZ	TAL1	K562	TF ChIP-seq	TAL1-human	Michael Snyder, Stanford	peaks
+ENCFF001VQH	E2F1	MCF-7	TF ChIP-seq	E2F1-human	Peggy Farnham, USC	peaks
+ENCFF001VQK	MYC	NB4	TF ChIP-seq	MYC-human	Michael Snyder, Stanford	peaks
+ENCFF002CFI	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CGB	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CKD	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CKZ	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CLB	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CLD	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CLF	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CLR	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CMJ	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CMN	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CMP	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002COD	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CSA	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CSE	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CSG	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CSM	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CTH	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CTV	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CTW	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CUV	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CVV	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CWD	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CWE	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CWF	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CWG	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CWH	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CWI	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CYH	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CZL	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002CZO	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002DAT	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002DAW	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002DBC	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002DBF	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002DBG	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002DBH	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002DBI	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Consortium Analysis Working Group	optimal IDR thresholded peaks
+ENCFF002WKU	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF003ANH	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF003DIJ	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF003LPE	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF003QBR	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF004CLN	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF004ZKN	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF006RQX	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF007UBL	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF008IJV	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF008MHU	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF010ZQO	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF011EFB	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF011LZV	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF011MZF	TCF12	MCF-7	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF011UAH	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF011VUP	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF012RTC	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF012ZZE	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF014TJO	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF015ADG	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF015KHE	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF015TXO	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF016CLY	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF016YJM	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF016YNQ	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF017BKY	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF017EGD	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF017FSY	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF017OFK	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF018AJJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF018FHH	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF018QPE	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF018XQS	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF019BQC	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF019DFB	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF020IMS	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF021KDL	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF022DQZ	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF022KBK	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF022SPK	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF023GYW	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF023RZH	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF024NIL	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF024RQX	SRF	MCF-7	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF025NHW	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF026GWX	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF026JRJ	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF026KLQ	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF028EAN	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF028EHR	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF028OCG	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF029RBI	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF030DLI	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF030HUB	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF031JJZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF031WJU	TCF3	K562	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF032NXX	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF033EDJ	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF033LTB	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF033MQA	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF033VDX	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF036GTX	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF037MFL	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF039JMG	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF039PRD	FOXO1	HepG2	TF ChIP-seq	FOXO1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF040CIT	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF040JIX	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF040KFQ	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF040NYJ	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF041VRQ	TP53	A549	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF043WTJ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF044BDY	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF044IDT	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF044KXC	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF044WWF	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF045BRA	SRF	MCF-7	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF045UZK	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF047UIF	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF048AYA	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF048HHX	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF048VWV	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF049BWK	E2F1	HepG2	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF049MWK	E2F1	HepG2	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF049YPY	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF050QMU	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF051ILG	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF051RBF	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF051UDA	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF053BQQ	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF053HPQ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF053JWJ	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF053OPX	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF054FEL	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF055JYQ	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF055PGX	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF056GMV	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF058NMZ	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF059LLI	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF060MQC	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF061FMV	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF062HBO	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF062PSB	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF062USI	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF063OWC	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF064ATR	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF064WDQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF065OPZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF066GQI	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF067KEJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF067LPB	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF068YNL	FOXO1	HepG2	TF ChIP-seq	FOXO1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF071FYJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF071LQE	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF072UGS	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF073ACH	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF073TFX	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF074NPF	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF075FNW	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF075ZQI	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF076ZYI	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF077ATS	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF077PGA	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF077UVX	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF078OUD	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF079YUZ	TP53	HepG2	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF080AEE	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF080JCI	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF080TQH	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF081PPZ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF081YHC	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF083FTH	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF083XOF	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF084AFZ	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF085MCZ	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF085MZN	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF085QRM	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF085SSV	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF086RZQ	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF086TAD	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF087EVW	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF087QHE	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF087VGU	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF088BPM	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF088MNI	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF088MWJ	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF089MLX	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF089SVR	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF091MQJ	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF091VGF	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF092WIR	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF093MCK	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF093TVZ	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF096ENW	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF096VAL	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF097OWQ	SRF	HCT116	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF097OXR	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF099AQK	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF099DCF	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF099EFN	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF099SDW	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF100GRL	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF101DBG	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF101SEZ	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF102KGE	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF103ESU	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF103JQF	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF103YYW	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF104VFF	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF105TFM	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF105XMS	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF106DAY	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF106JLZ	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF106NTS	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF106RGY	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF107JDJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF107JLW	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF108ACN	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF109DFC	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF110ELV	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF110OZO	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF110VMS	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF111NSP	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF111QMF	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF112JIR	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF113FPH	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF113GYB	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF113KOQ	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF113UQR	SRF	MCF-7	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF114VAI	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF115EBF	SRF	MCF-7	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF115ESP	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF115KRO	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF115MRG	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF117IEQ	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF117JKS	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF117OUO	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF117VKA	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF118JNU	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF118UAU	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF118VTU	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF120CFE	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF120GVJ	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF120IMP	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF121PUN	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF121SXP	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF122BCQ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF123ECM	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF124QHJ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF127HAK	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF127RVQ	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF128EAB	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF128RAJ	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF129BKD	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF130MLE	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF130PSN	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF131ETR	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF131TYZ	SRF	MCF-7	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF132IBT	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF134BOD	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF134CPX	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	pseudoreplicated IDR thresholded peaks
+ENCFF134JLR	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF134KWO	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF135MBB	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF139ESP	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF139SRI	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF140VZF	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF141BNU	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF141JYN	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF142BHB	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF142LVN	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF143EHM	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF144LSV	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF144OQR	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF146NOI	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF146NTX	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF147DAN	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF148EKP	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF149BIS	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF149ZWX	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF151YML	TCF3	HepG2	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF152LKE	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF153LKX	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF154NAC	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF154VTV	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF155LGO	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF156LPG	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF157DSR	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF157SQN	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF159DOB	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF159IZZ	SRF	HCT116	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF159RHZ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF160PSX	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF161PGD	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF161RTC	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF162CMX	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF163FRZ	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF164SFN	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF164TFW	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF165VLE	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF166EQU	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF166VYN	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF166XNP	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF167JLX	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF167LQI	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF167TAU	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF168KBY	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF168VDC	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF169XBF	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF169XUE	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF170GAA	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF170OUN	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF170RIC	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF171NEU	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF172LAV	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF172NAU	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF172WTW	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF173QBJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF174YEH	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF175FAX	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF175VXL	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF176AUI	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF181EXX	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF181YGP	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF182ARF	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF182BYO	SP1	HCT116	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF182MNO	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF183BTT	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF184KHN	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF185DGL	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF186ZET	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	pseudoreplicated IDR thresholded peaks
+ENCFF188HUU	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF188PLT	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF189ZQR	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF190CLO	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF190IKA	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF192IVD	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF193LLN	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF193MKL	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF194MEG	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF196DHT	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF196UZE	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF196VRG	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF197SWC	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF198LWT	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF199PBO	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF199SKV	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF199TNN	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF202LMH	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF202LYD	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF204LDT	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF206BMO	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF206UIN	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF207AUR	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF207MUN	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF208AQB	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF208MYK	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF210DMP	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF210XCC	FOXO1	HepG2	TF ChIP-seq	FOXO1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF211FZZ	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF212BQE	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF214RQX	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF214YSD	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF216ARN	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF216SKP	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF217QMA	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF217UNF	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF218RJK	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF219BPE	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF220UJA	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF221DBR	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF221VCF	TP53	HepG2	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF222FWT	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF223LFM	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF223ZVT	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF224GRD	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF224GZD	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF224QAK	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF224SOE	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF225BFX	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF225KYS	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF228CDD	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF228LSW	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF228MGK	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF228XIZ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF229CFO	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF230CPK	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF230VNH	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF230XQX	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF231HJU	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF231HME	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF231MQR	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF232BGD	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF233KBN	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF233XAJ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF234EHV	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF236IPL	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF236YZF	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF238MSL	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF238RSZ	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF238SMS	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF239IMY	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF239TWR	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF240ZHW	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF242IWJ	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF242PEU	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF243NQJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF243SPU	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF243XDG	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF243XZA	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF244ROK	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF245FWW	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF245TIS	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF246CBF	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF246VDU	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF247QVV	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF248HIX	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF249ZTK	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF250ATZ	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF250KBS	SRF	HCT116	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF250MUC	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF251ULY	SP1	HCT116	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF252JHJ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF256XQF	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF257UWY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF258AZW	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF258YCI	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF259FVH	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF259GUE	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF259VDF	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF260FYO	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF260KBY	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF260PKT	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF261LIE	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF261OGP	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF262AZV	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF263GAK	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF263ZGK	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF264KUD	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF264QLP	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF264SIX	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF265LDE	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF266GBP	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF266QUX	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF267CKY	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF267GNY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF269COU	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF269DNZ	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF269OJD	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF269RLS	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF269WSX	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF270LYL	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF270PPM	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF271QTZ	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF272EQO	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF274RRP	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF275WAD	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF276DVU	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF277JYZ	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF277KCU	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF277LSM	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF277UCH	E2F1	HepG2	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF278VAE	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF280RJA	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF280ZBV	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF281QXD	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF281VNN	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF281VXZ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF282HXS	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF282YGY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF283AYZ	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF284LRP	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF285ILQ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF286WPU	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF288LMY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF289KWB	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF289REJ	SRF	MCF-7	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF290FEC	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF290WHA	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF291EZY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF291JBV	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF291XES	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF292LAI	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF292QLD	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF292SZD	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF293DHX	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF294XIV	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF296PJG	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF297BBY	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF297KAT	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF297UUZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF298JZV	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF299JYV	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF299ZUK	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF300OKR	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF300XUA	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF301CNM	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF301IRM	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF301OEA	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF301VUW	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF302WKC	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF303HQJ	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF304BDR	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF304BIC	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF304FKQ	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF304NFW	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF304XXT	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF306COY	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF308VBF	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF309PVJ	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF309ZJM	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF310NHR	TCF3	K562	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF312FPE	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF312MKD	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF313DDT	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF314KET	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF314LFV	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF314MDR	SP1	HCT116	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF315LBQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF315VQM	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF315WSN	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF316KWW	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF316LOP	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF316WFA	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF316YEL	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF317GVT	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF317SXY	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF318AOU	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF318KNL	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF319IEF	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF321KQD	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF321TMN	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF322HPX	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF322UWA	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF323FQW	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF323URU	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF325VBX	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF326WMF	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF328GQG	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF328SRN	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF330CLZ	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF330UQJ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF331BSI	FOXO1	HepG2	TF ChIP-seq	FOXO1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF331KUW	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF331UBK	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF333SWC	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF333ZEX	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF334ESE	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF334FKH	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF334SEU	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF335BUX	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF335NYP	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF337ISL	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF338PAG	SRF	MCF-7	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF339AQP	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF340VPK	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF341DDR	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF342QGM	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF343KZD	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF343LJR	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF345NUQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF346ZIN	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF347EMN	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF347PNV	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF348RKC	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF351BBR	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF351FUG	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF351PGN	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF352HGW	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF353EUL	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF356LKG	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF356PWE	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF357COB	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF357NBU	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF357PLM	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF358UWQ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF358WHI	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF359DUK	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF359LNM	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF360HMC	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF361NRI	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF362DBO	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF362GEH	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF362XTA	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF363ODB	TCF3	K562	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF364UVL	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF365NHC	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF365REH	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF365ROK	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF365XJJ	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF366CSF	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF366DXX	TP53	HepG2	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF366HLG	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF366KTJ	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF366WSJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF368VBY	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF369KTZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF369UML	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF370EQJ	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF370QHV	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF371ZZU	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF372GUM	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF373LWH	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF373UVF	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF374EFU	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF375ASM	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF375GQZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF377XCI	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF377ZPB	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF378FHV	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF378NYR	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF378QNO	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF378WXQ	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF380RBK	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF381CUX	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF381SOC	TP53	A549	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF382MHJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF382YJO	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF384CFN	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF385LDF	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF385TVX	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF385XEA	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF385XQX	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF386XKU	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF387CHT	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF387FGQ	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF387LTN	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF387RCW	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF387VTI	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF388FCL	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF389AGF	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF390BVP	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF390IMT	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF393CCO	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF393INF	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF394CSS	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF394SDE	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF395KVX	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF396KIR	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF396UAX	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF397EQE	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF397VNT	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF398GMI	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF398RUU	FOXO1	HepG2	TF ChIP-seq	FOXO1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF399JUZ	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF400XTB	TCF3	HepG2	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF400ZEZ	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF401MRM	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF401PPU	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF401UHX	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF402AXD	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF402ILG	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF402QOC	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF404CAA	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF404OSB	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF404YEK	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF405AOP	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF405VCB	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF406YVG	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF407DDI	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF407TJR	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF408ABZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF408BSH	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF408FLA	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF408SVY	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF409CPX	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF409GQR	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF409VNY	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF410GAV	TP53	HepG2	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF410WZD	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF410YVI	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF411BDO	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF412ERW	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF412EVD	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF413XOJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF414DXJ	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF414ECK	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF414SQZ	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF414ZZX	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF415XFU	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF416FNE	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF416GKN	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF418DXC	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF419CGD	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF419TZM	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF420CVJ	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF422AIU	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF422BXE	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF422VXS	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF422ZYU	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF423OXH	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF423RWZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF427IZS	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF427RJK	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF427ZYA	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF428GKF	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF428HIR	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF429QTL	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF429XKT	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF429ZSH	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF430JQO	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF430MUA	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF433HFC	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF434LJJ	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF435YKY	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF436EEZ	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF436JPO	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF436KQA	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF436PYK	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF436ZDL	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF437RDJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF438SLH	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF438TZY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF439QLD	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF440AAA	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF440ALE	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF440HZQ	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF441YTV	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF442GMI	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF442QPB	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF442REW	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF445KAK	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF445LDO	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF445LQN	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF445VTT	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF446FKN	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF446TMO	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF448BLD	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF448LCM	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF449ESA	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF449GDA	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF450DFK	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF450EWT	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF450KIM	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF452LDK	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF453AYQ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF453DTP	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF454FFN	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF456BUE	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF457YAK	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF458WPZ	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF459EOD	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF459WKK	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF460KGN	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF460MIK	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF460WJX	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF461PWF	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF461RAS	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF461ZHK	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF462AJX	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF462DNS	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF462LGV	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF463VAP	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF464IZM	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF464YZA	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF465JKF	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF465JPY	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF466AJA	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF466JMB	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF467EGX	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF467TLM	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF469KYB	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF469PUX	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF470CPW	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF471HCD	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF471HJA	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF472DFB	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF472DXY	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF472QWQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF474CNW	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF475LFH	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF479CNG	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF480FCD	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF481OXO	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF482CEV	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF482RLB	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF482ZCN	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF483XFR	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF483ZNL	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF484BKL	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF484YOP	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF484YUD	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF485GJV	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF486BXB	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF486ZBQ	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF487CRR	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF487YWY	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF488CCC	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF488WQN	TP53	A549	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF488XZE	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF489JJP	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF489SNI	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF489WGL	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF490QYR	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF491DNM	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF491WEZ	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF492XUU	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF493NNX	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF493SBE	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF493TZM	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF495IFK	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF495PCJ	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF495PCQ	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF497INX	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF497JXY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF498VXG	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF499COS	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF500KOD	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF500XTF	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF501DFJ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF501JAX	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF501VID	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF501ZDC	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF502JKO	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF502RNC	SRF	HCT116	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF504HNE	TCF3	HepG2	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF504PFQ	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF506PIV	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF507BTQ	TP53	A549	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF507KCU	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF507MNQ	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF509VPA	E2F1	HepG2	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF510BCH	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF511DMI	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF511NBR	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF515BTV	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF517EXU	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF517GFP	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF517UED	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF518ECW	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF518GBI	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF518MLS	TCF12	MCF-7	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF518NVV	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF519DOC	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF519FSK	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF519GKM	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF519LNU	SP1	HCT116	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF519MOV	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF519NBO	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF519QJO	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF520ETY	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF521HYG	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF521INM	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF521XFY	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF522BSB	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF523JVG	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF524GTV	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF525MEJ	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF525ZRH	TCF12	MCF-7	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF527EGF	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF527MLQ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF527ZVT	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF528QDU	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF528UCG	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF529YBK	E2F1	HepG2	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF531NSO	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF531PCT	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF531QRT	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF531RMN	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF532LIT	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF532UQX	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF533IUC	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF533UNN	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF534DSD	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF534WOS	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF535BIN	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF535CBF	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF535HFM	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF535NWA	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF535POS	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF535TLR	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF537TLY	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF539CXS	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF539HPG	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF540ITW	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF540MWS	TP53	A549	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF542GMN	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF543ITL	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF544YCY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF545PAY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF545VLB	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF545WXN	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF546ASI	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF546JXV	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF547SJG	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF548GNW	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF548UHD	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF549YBI	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF550TXR	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF551FXB	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF551UWR	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF551ZPE	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF553DRN	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF553GPK	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF553ICR	SP1	HCT116	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF553MVP	SRF	HCT116	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF553OVY	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF553TQP	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF554HUF	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF554XAI	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF556OZO	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF556YAO	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF557BWM	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF557NNU	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF557YQQ	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF558LHA	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF559OAE	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF560AQD	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF561QKK	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF562LCU	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF562YGL	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF563CWK	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF563DQA	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF564JKS	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF564PCC	TCF3	K562	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF564YGY	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF565KDO	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF565OXQ	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF565QFG	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF566CTX	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF567EYJ	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF567HZK	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF567YFB	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF567YTM	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF569JIF	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF569UZW	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF570LRX	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF570RCD	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF570UPV	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF570YMS	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF571FVN	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF571MPI	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF571MRI	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF571VYR	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF573ALP	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF573DRR	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF575EDK	SRF	HCT116	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF575GAW	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF576BKY	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF576KKB	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF576PUH	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	pseudoreplicated IDR thresholded peaks
+ENCFF577BBA	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF577BMW	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF577EMC	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF578MYY	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF579PHU	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF579TMD	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF581CCI	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF581IJH	SRF	HCT116	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF582OHI	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF583RCF	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF584FGI	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF585FOD	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF585VCJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF586PKC	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF587OBC	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF588IAG	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF588MNK	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF588QHN	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF588XNR	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF590IQB	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF591MJF	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF591SPS	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF591WIK	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF592VGA	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF592ZPR	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF594LBX	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF596JXE	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF597JYK	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF598BZD	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF598CGL	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF598WMJ	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF599FYT	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF599NCE	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF599YLJ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF600MKH	SP1	HCT116	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF601WLR	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF605WXD	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF605YAE	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF606COF	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF606IBP	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF606LFI	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF606PZE	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF607BPI	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF607FBY	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF608CXN	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF608PXR	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF609NCN	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF609NIB	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF610EDQ	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF610KGE	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF610SCZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF611OIJ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF611XRE	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF612QCQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF614GOC	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF614IYJ	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF614OPT	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF615FFE	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF616IRT	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF617IIQ	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF618FAG	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF618WXA	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF619AEN	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF621FNG	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF623BJO	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF623EST	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF623IEY	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF623VGU	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF623VYN	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF624DDK	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF624HJF	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF625RJZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF625XBH	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF626AVJ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF626DLW	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF626GMB	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF626HUH	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF626ORE	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF626RKY	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF627NVL	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF628ATN	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF628XDX	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF629VWX	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF630ITX	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF633UGE	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF633UVY	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF633ZUS	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF634AYU	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF634AZI	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF634HLA	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF634VUQ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF635QYF	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF635UNX	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF636ARM	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF636UZV	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF637ZJM	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF639COT	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF639VNB	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF640KEE	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF641FUH	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF642DRL	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF642ZUX	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF643OJK	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF644LDW	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF644YJE	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF645JFE	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF645XXO	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF646IHV	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF647WFG	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF648FRJ	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF648PUH	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF648XUD	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF649HKE	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF650IIS	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF650PBM	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF650TEP	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF651ASJ	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF651OAU	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF652FOM	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF652MSG	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF652YDQ	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF655AWQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF656VWR	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF657NEN	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF658HQE	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF658HYK	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF658XME	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF659DPA	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF659FIT	TCF12	MCF-7	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF660VRV	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF661CGO	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF661CJD	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF661IHD	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF662BIZ	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF662WXX	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF664GSV	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF664LMJ	E2F1	HepG2	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF664QPV	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF664XPS	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF665HHH	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF666EPX	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF666FOX	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF666FSS	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF666HKG	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF669YPX	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF670PLH	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF671AKE	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF671BJL	E2F1	MCF-7	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF671DAE	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF671WVR	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF672FQU	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF672JLN	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF672MKP	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF672QXP	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF672TVM	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF673PRZ	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF673YFW	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF674MJC	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF674RQX	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF675PHY	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF676YJE	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF677OEQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF677RZA	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF678ART	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF679MVX	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF679REG	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF679VQP	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF680OOS	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF680TBL	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF681IAE	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF682AWN	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF682FEJ	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF682QML	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF684TEE	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF684XQE	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF687GBY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF687MRB	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF687REY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF687RMM	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF688IPV	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF688KNS	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF688NPY	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF689EEG	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF689VYE	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF690CMF	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF690THQ	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF692JCC	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF694AAR	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF694DZO	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF694IKT	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF694KUN	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF694VSV	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF695IQU	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF695KNI	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF695MSY	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF696GSE	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF696OVM	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF698ZKJ	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF699UTZ	TP53	A549	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF699WES	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF700ARO	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF700RHN	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF700SQG	TCF3	K562	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF700TLG	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF701DTE	TP53	HepG2	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF701ZUX	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF702PPD	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF703FQM	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF703MYC	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF705MDG	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF705UHV	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF706PKI	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF706TON	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF708DXF	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF708WDH	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF710IEF	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF710KKZ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF710XFQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF711DYD	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF711PFZ	E2F1	HepG2	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF712GEQ	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF712OHV	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF712TCV	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF712ZNR	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF713MLA	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF714BAW	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF714RQM	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF714SXQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF715UBX	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF716FAV	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	pseudoreplicated IDR thresholded peaks
+ENCFF716GBZ	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF716JKY	CEBPB	MCF-7	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF716OTE	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF716YFU	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF717BTK	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF717JGJ	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF717WWT	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF718MRJ	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF719FJX	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF720APP	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF720GJZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF720NAW	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF721EDF	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF721GUV	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF721HDQ	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF721KHE	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF721SBW	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF721SZO	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF723DZK	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF723FPE	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF723HSS	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF723QGS	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF724DNU	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF724VUC	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF724XGS	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF725XGY	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF726YHM	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF727HFS	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF728OZD	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF728VLI	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF730DJF	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF730MAR	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF731OHW	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF732KKY	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF732YAK	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF734WVJ	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF735PKA	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF735PSU	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF735QWM	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF735WMX	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF737ZVZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF738LQC	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF738TVZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF739NHL	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF739NKN	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF739VOM	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF740QPT	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF741WKY	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF742EMB	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF743YVY	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF744SEA	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF746CRJ	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF746VUX	STAT3	HeLa-S3	TF ChIP-seq	STAT3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF747DHB	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF747YIP	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF750ITL	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF751AYI	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF752KOW	FOXO1	HepG2	TF ChIP-seq	FOXO1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF753PAD	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF754FOA	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF754WVZ	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF755BEU	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF755FKJ	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF755NTM	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF755QZO	TCF3	K562	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF757UIC	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF758MFJ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF761ABK	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF761OMK	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF761UZG	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF761YWV	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF762CML	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF763SRL	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF763XOQ	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF765ZCA	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF766FPC	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF766PSK	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF766PWX	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF767GWJ	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF768IDP	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF768INF	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF768ZDS	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF769WRU	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF771LVW	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF772PQZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF772TGU	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF772VMB	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF773EPS	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF773RNU	TCF3	K562	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF774BEC	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF774DWR	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF775MPD	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF775RGP	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF776ARH	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF777MYW	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF777QKF	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF777UUX	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF778OYJ	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF778WUW	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF779ACE	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF779QFW	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF779ZUX	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF780IIW	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF780OKR	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF781HFQ	TCF3	HepG2	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF782ESV	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF783CTL	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF783VIM	TP53	A549	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF784BWK	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF784JQH	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF784LWV	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF784MAU	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF784XVN	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF785HTC	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF786ECI	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF786OYA	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF787DCF	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF787GDS	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF787HLB	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF788CBF	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF789EME	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF790ETX	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF790WFD	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF790XQI	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF792KIA	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF793KOK	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF793OHV	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF793UWN	TCF12	SK-N-SH	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF795RCO	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF795RDX	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF796MCF	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF797QGP	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF797TKM	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF799DNN	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF800JFG	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF803LML	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF804ABO	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF804FGY	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF804VPN	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF805QIW	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF805ZYS	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF806TIM	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF807VKU	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF808QUD	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF808TOF	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF808YAS	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF809WPK	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF810TLP	TP53	HepG2	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF811HWR	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF812SPD	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF813HWY	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF813LOW	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF813ONM	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF813SPN	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF813YNJ	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF814PWW	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF814QPF	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF815HQB	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF816NKN	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF817MVX	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF819CJW	E2F1	HepG2	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF819GCB	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF819JEC	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF820PHL	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF821FYB	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF822VHF	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF824TMR	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF824WTS	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF825QLF	TCF3	HepG2	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF826PIB	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF826RWZ	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF826WTJ	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF827GWN	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF827UFT	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF827UJF	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF828JWK	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF828MWO	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF830NUK	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF831GEW	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF832VNX	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF834NUV	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF835UPN	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF835XYK	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF836BXB	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF836OIF	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF836PBB	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF836QWS	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF837BDB	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF838NIW	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF838RSB	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF839QBV	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF841QLZ	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF841ZKW	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF842BMF	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF842GBC	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF842NJN	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF843CYJ	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF843PIU	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF843QZG	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF844RNW	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF847AGG	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF847AGH	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF848QJR	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF848QSZ	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF848WYC	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF849LHH	TCF12	MCF-7	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF849LSO	TP53	HepG2	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF850DUU	TCF3	HepG2	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF850FVG	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF850KGU	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF850VMA	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF851IVC	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF851MKW	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF851OFV	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF852AAQ	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF852CYZ	CREB1	Ishikawa	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF852HEY	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF852ZRK	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF853SKH	TP53	A549	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF853ZAI	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF855DWX	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF855QKY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF855UMP	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF855UQN	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF855VXM	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF856CEE	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF856TDE	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF856UYG	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF857MEZ	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF858ASA	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF858KWK	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF858NWA	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF858QIP	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF858ZYN	MYC	NB4	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF859MQB	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF862DXR	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF863XNQ	FOXO1	HepG2	TF ChIP-seq	FOXO1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF866CXB	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF866GSX	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF866KYP	SRF	HepG2	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF866QPM	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF867EKJ	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF867MDW	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF869JTA	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF869OOK	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF870CER	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF870JMX	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF871JEQ	CREB1	A549	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF872KVF	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF872NFM	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF872RSG	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF874EVS	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF874PIO	CEBPA	HepG2	TF ChIP-seq	CEBPA-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF874WVN	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF876WDK	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF877BZG	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF877EIF	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF877KDO	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF877NAR	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF877WEN	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF878NMO	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF880DHN	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF881INQ	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF881PUT	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF882ARK	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF882BRZ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF882EZR	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF882FIA	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF883AYB	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF883BPQ	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF883EPG	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF883LRJ	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF883YQO	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF884VNW	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF885CLY	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF885VKD	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF886PVT	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF886XES	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF887NAS	TP53	HepG2	TF ChIP-seq	TP53-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF888CKG	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF888VAS	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF890YEO	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF891KEP	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF891QTR	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF893DND	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF894JDZ	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF894ORR	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF894RIX	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF894YJQ	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF896LKV	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF896WVS	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF897YHB	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF899MNG	GATA4	HepG2	TF ChIP-seq	GATA4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF900PFE	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF901GEZ	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF901OIG	SPI1	K562	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF901ZBM	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF902EKZ	TCF3	HepG2	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF902QAK	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF904MXP	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF904OAW	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF904RTN	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF904XHT	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF905KLI	RXRA	SK-N-SH	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF905MGY	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF905VLK	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF907PFI	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF907SPZ	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF907XCP	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF907ZDN	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF908PSM	SRF	K562	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF908TRE	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF910UCA	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF912HBY	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF912ITB	SP1	HCT116	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF912LXU	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF913CGA	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF915BRB	TCF12	MCF-7	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF915JCV	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF915ZUX	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF915ZYE	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF916KLD	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF916UXX	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF917WLJ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF918YGU	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF919WJA	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF921JVX	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF921RVE	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF921XMX	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF921ZHS	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF922EWR	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF926IPE	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF927HFR	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF929IAB	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF930GII	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF932QXK	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF932UJX	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF933KNI	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF934CJB	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF934ENB	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF935ICC	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF935TYN	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF936EFC	TCF12	A549	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF937GTF	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF937KBH	FOXO1	HepG2	TF ChIP-seq	FOXO1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF938CNW	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF939KFI	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF939WBO	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF939ZCA	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF940BIM	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF943CZT	SRF	MCF-7	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF944KBB	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF944MHD	SREBF1	A549	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF944QJD	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF944WFX	CEBPB	A549	TF ChIP-seq	CEBPB-human	Tim Reddy, Duke	peaks
+ENCFF945FRP	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF946EWH	TCF12	MCF-7	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF946JCH	SP1	HCT116	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF947KSU	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF948BKC	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF948EFF	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF949EAE	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF949ZLO	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF950ICB	ATF4	HepG2	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF950LQM	MYC	HeLa-S3	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF951BHY	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF951BWR	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF951GQB	CREB1	MCF-7	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF952JIK	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF955JHD	CEBPB	HeLa-S3	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF955MFB	CREB1	HepG2	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF959COX	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF959JRF	SRF	HCT116	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF959MVO	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF960NGN	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF961GMP	SRF	Ishikawa	TF ChIP-seq	SRF-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF961HAC	MYC	MCF-7	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF961VDA	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF962HQK	SREBF1	MCF-7	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF962JTY	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF963FVR	CEBPB	HCT116	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF963MTR	E2F1	HeLa-S3	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF963REE	RARA	HepG2	TF ChIP-seq	RARA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF963XUA	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF964JXI	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF964MUO	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF966NAL	SPI1	HL-60	TF ChIP-seq	SPI1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF967HGY	MYC	A549	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF967VSP	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF968MPT	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF968SJR	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF970NGB	ATF4	K562	TF ChIP-seq	ATF4-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF970ORV	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF970QKS	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF970YIG	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF971DIX	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF971JPI	MYC	HepG2	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF972SKW	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF975EVE	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF975OUG	RUNX1	K562	TF ChIP-seq	RUNX1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF976VQH	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF976ZDJ	RXRA	HepG2	TF ChIP-seq	RXRA-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF977BLL	CREB1	K562	TF ChIP-seq	CREB1-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF979OOW	SP1	HepG2	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF982LCY	TCF12	K562	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF983UDO	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF983YAM	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF984FGT	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF985TSH	SREBF1	K562	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF987HSI	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF987QLI	TCF12	MCF-7	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF987YZL	TCF4	SK-N-SH	TF ChIP-seq	TCF4-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF988CGH	CEBPB	HepG2	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF988VRI	TCF3	HepG2	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF989TZU	TCF12	Ishikawa	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF990CFV	POU5F1	K562	TF ChIP-seq	POU5F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF990HAQ	SP1	MCF-7	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF992CFH	CEBPB	Ishikawa	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF992GNX	TCF3	K562	TF ChIP-seq	TCF3-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF992YKP	TAL1	K562	TF ChIP-seq	TAL1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF993SCW	CEBPB	K562	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF994BNZ	SP1	A549	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	peaks and background as input for IDR
+ENCFF994TVF	SP1	K562	TF ChIP-seq	SP1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF994XAI	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR thresholded peaks
+ENCFF995JQC	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF997NWM	TCF12	HepG2	TF ChIP-seq	TCF12-human	ENCODE Processing Pipeline	conservative IDR thresholded peaks
+ENCFF997OKQ	SREBF1	HepG2	TF ChIP-seq	SREBF1-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF998DSZ	MYC	K562	TF ChIP-seq	MYC-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF998VAV	RXRB	HepG2	TF ChIP-seq	RXRB-human	ENCODE Processing Pipeline	IDR ranked peaks
+ENCFF998YJY	E2F1	K562	TF ChIP-seq	E2F1-human	ENCODE Processing Pipeline	optimal IDR thresholded peaks
+ENCFF999TKB	CEBPB	A549	TF ChIP-seq	CEBPB-human	ENCODE Processing Pipeline	IDR ranked peaks
