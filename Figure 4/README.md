@@ -25,6 +25,9 @@ Transcription factors excluded from the analysis due to lack of suitable ENCODE 
 RUNX3, FLI1, KLF5, RUNX2, RXRG, FOXO3, ASCL1.
 
 This filtering step ensures that all analyzed TFs are supported by experimentally validated ChIP-seq data within a consistent dataset framework.
+
+This constraint minimizes bias introduced by incomplete or uneven TF coverage across datasets.
+
 ---
 
 ## Data Source and Preprocessing
