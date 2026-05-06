@@ -1,265 +1,184 @@
-Вот собранный **полный README.md** в аккуратном GitHub-формате (можешь просто вставить в репозиторий):
+# TF ChIP-seq Promoter Binding Analysis of NKG2D Ligands
+
+## Overview
+
+This repository contains an R-based pipeline for the analysis of transcription factor (TF) binding at promoter regions of NKG2D ligand genes using ENCODE ChIP-seq data. The analysis quantifies TF binding by computing overlaps between TF peak regions and promoter intervals defined as transcription start sites (TSS) ± 2 kb.
+
+The primary objective of this workflow is to identify transcription factors that potentially regulate the expression of NKG2D ligands, including MICA, MICB, and members of the ULBP family (ULBP1–6, corresponding to RAET1E, RAET1G, and RAET1L in GENCODE annotation).
 
 ---
 
-# 🧬 TF ChIP-seq Analysis of NKG2D Ligand Promoters
+## Data Source and Preprocessing
 
-## 📌 Overview
+The analysis is based on processed ChIP-seq peak files downloaded from the ENCODE portal. The dataset was restricted to human TF ChIP-seq experiments performed in cancer cell lines, and only processed peak files in `.bed.gz` format were retained for downstream analysis. Other file types such as BAM, bigWig, and bigBed were excluded, as they are not required for genomic overlap analysis.
 
-This project performs **transcription factor (TF) binding analysis** at promoter regions of **NKG2D ligand genes** using ENCODE ChIP-seq data.
-
-The goal is to identify TFs that potentially regulate:
-
-* **MICA, MICB**
-* **ULBP1–6 (RAET1 family)**
-
-by quantifying TF binding peaks within **promoter regions (TSS ± 2 kb)**.
+The list of downloaded files was stored in `LIST_of_files.txt` and manually filtered to include only the files that were actually used.
 
 ---
 
-## 📂 Project Structure
+## Metadata Processing
+
+Metadata for each ChIP-seq file were retrieved through the ENCODE REST API using file accession identifiers. JSON responses were parsed to extract relevant fields, including:
+
+- Transcription factor name  
+- Cell line  
+- Assay type  
+- Laboratory source  
+- Output type  
+
+These data were consolidated into a single file:
 
 ```
-.
-├── data/
-│   ├── LIST_of_files.txt        # filtered ENCODE files (.bed.gz only)
-│   ├── metadata.tsv             # parsed ENCODE metadata
-│   ├── gencode.v49.basic.annotation.gtf
-│
-├── peaks/
-│   ├── *.bed.gz                # TF ChIP-seq peak files
-│
-├── scripts/
-│   ├── 01_metadata_download.sh
-│   ├── 02_metadata_parsing.sh
-│   ├── 03_promoter_overlap.R
-│
-├── results/
-│   ├── TF_ChIPseq_overlap_long.csv
-│   ├── TF_ChIPseq_overlap_matrix.csv
-│   ├── heatmaps/
-│
-└── README.md
-```
 
----
-
-## 🧪 Data Download and Preprocessing
-
-### ENCODE Dataset Selection
-
-TF ChIP-seq datasets were downloaded from the
-ENCODE Project
-
-Search filters:
-
-* Organism: **Homo sapiens**
-* Assay: **TF ChIP-seq**
-* Biosample type: **cell lines**
-* Sample type: **cancer cell lines**
-* File type: **processed peaks**
-
-### Selected Transcription Factors
-
-```
-SP1, TP53, CEBPB, CREB1, SRF, RARA, RXRA, STAT3, RUNX1, SPI1,
-TAL1, TCF12, CEBPA, TCF4, POU5F1, TCF3, MYC, RXRB, GATA4,
-E2F1, ATF4, FOXO1, SREBF1
-```
-
----
-
-## 📥 Download Procedure
-
-1. ENCODE file list saved to:
-
-   ```
-   LIST_of_files.txt
-   ```
-
-2. File filtering:
-
-   * Kept only:
-
-     ```
-     *.bed.gz
-     ```
-   * Removed:
-
-     ```
-     .bam, .bigWig, .bigBed
-     ```
-
-3. File accession extraction from filenames
-
-4. Metadata retrieval via API:
-
-```bash
-curl -L https://www.encodeproject.org/files/<FILE_ACCESSION>/?format=json
-```
-
----
-
-## 🧾 Metadata Processing
-
-Metadata fields extracted:
-
-* TF name (`target.label`)
-* Cell line (`biosample_ontology.term_name`)
-* Assay type
-* Lab
-* Output type
-
-Final table:
-
-```
 metadata.tsv
+
 ```
 
-Used to annotate each ChIP-seq peak file.
+Matching between metadata and peak files was performed using ENCODE file accession IDs extracted from file names.
 
 ---
 
-## 🧬 Cell Lines Used
+## Cell Lines
 
-| Cell Line | Number of Experiments |
-| --------- | --------------------- |
-| K562      | 40                    |
-| HepG2     | 33                    |
-| A549      | 22                    |
-| MCF-7     | 14                    |
-| HeLa-S3   | 6                     |
-| Ishikawa  | 4                     |
-| HCT116    | 3                     |
-| SK-N-SH   | 3                     |
-| HL-60     | 1                     |
-| NB4       | 1                     |
+The final dataset includes experiments from the following cancer cell lines:
+
+- K562  
+- HepG2  
+- A549  
+- MCF-7  
+- HeLa-S3  
+- Ishikawa  
+- HCT116  
+- SK-N-SH  
+- HL-60  
+- NB4  
+
+Due to uneven representation across transcription factors, normalization by the number of files per TF was implemented.
 
 ---
 
-## 🧬 Gene Annotation
+## Gene Annotation
 
-Annotation used:
+Gene annotation was performed using:
 
 ```
+
 GENCODE v49 (GRCh38)
+
 ```
 
-* File:
+Promoter regions were defined as:
 
-  ```
-  gencode.v49.basic.annotation.gtf
-  ```
+```
 
-### Notes
+TSS ± 2000 bp
 
-* Genome build: **hg38**
-* Promoter definition:
+````
 
-  ```
-  TSS ± 2 kb
-  ```
-* Alternative GENCODE versions (v38–v44) produce comparable results
+The analyzed genes include:
+
+- MICA, MICB  
+- ULBP1, ULBP2, ULBP3  
+- RAET1E (ULBP4)  
+- RAET1G (ULBP5)  
+- RAET1L (ULBP6)  
+
+Minor differences between recent GENCODE versions are not expected to significantly affect results.
 
 ---
 
-## 🎯 Target Genes (NKG2D Ligands)
+## Analysis Workflow
 
-```
-MICA, MICB,
-ULBP1, ULBP2, ULBP3,
-RAET1E (ULBP4),
-RAET1G (ULBP5),
-RAET1L (ULBP6)
-```
+1. **Load annotation**  
+   GTF file is imported and gene coordinates are extracted.
 
----
+2. **Generate promoter regions**  
+   Promoters are defined using ±2 kb around TSS.
 
-## 🔬 Analysis Workflow
+3. **Load ChIP-seq peaks**  
+   Peak files (`.bed.gz`, `.narrowPeak`, `.broadPeak`) are read and converted to genomic ranges.
 
-### Step 1 — Load data
+4. **Overlap analysis**  
+   TF peaks are intersected with promoter regions using:
 
-* Peak files (`.bed.gz`)
-* Metadata (`metadata.tsv`)
-* GTF annotation
+   ```r
+   findOverlaps(promoters_gr, peaks_gr)
+````
 
-### Step 2 — Define promoters
-
-* Extract gene coordinates
-* Compute:
-
-```
-TSS ± 2 kb
-```
-
-### Step 3 — Convert to genomic ranges
-
-Using:
-
-* `GenomicRanges`
-* `IRanges`
-* `rtracklayer`
-
-### Step 4 — Overlap analysis
-
-* Intersect TF peaks with promoters
-* Count overlaps per:
-
-  * TF
-  * Gene
-  * File
-
-### Step 5 — Aggregation
-
-Generate:
-
-* Long format table
-* TF × Gene matrix
+5. **Aggregation**
+   Overlapping peaks are counted for each TF–gene pair across all files and cell lines.
 
 ---
 
-## 📊 Output Files
+## Output Files
 
-### Main results
+### Long-format results
 
 ```
-TF_ChIPseq_overlap_long.csv
+TF_ChIPseq_NKG2DL_promoter_overlap_long.csv
 ```
 
-Columns:
+Contains:
 
 * TF
-* gene
-* cell line
-* file accession
-* number of peaks
-
-```
-TF_ChIPseq_overlap_matrix.csv
-```
-
-Matrix:
-
-* rows = TFs
-* columns = genes
-* values = peak counts
+* Gene
+* Cell line
+* Number of overlapping peaks
 
 ---
 
-## 📈 Visualization
+### Summary table
 
-Heatmaps generated using:
+```
+SUMMARY_TF_by_NKG2DL_gene.csv
+```
 
-* `pheatmap`
+Includes:
 
-Optional normalization:
-
-* peaks per TF
-* peaks per file
+* Total overlapping peaks
+* Number of files with binding
+* Cell lines
+* File accessions
 
 ---
 
-## ⚙️ R Environment
+### TF × Gene matrix
+
+```
+MATRIX_TF_x_NKG2DL_total_peaks.csv
+```
+
+---
+
+### Normalized matrix
+
+```
+MATRIX_TF_x_NKG2DL_peaks_per_file.csv
+```
+
+Normalization is performed as:
+
+```r
+peaks_per_file = total_overlapping_peaks / n_files_total
+```
+
+This step corrects for unequal numbers of ChIP-seq experiments per transcription factor.
+
+---
+
+## Visualization
+
+Heatmaps are generated using the `pheatmap` package and include:
+
+* Log2-transformed peak counts
+* Binary binding (presence/absence)
+* Normalized peaks per file
+
+Gene labels are standardized to ULBP1–6 for clarity.
+
+---
+
+## Environment
 
 ```
 R version 4.5.3 (2026-03-11)
@@ -268,63 +187,39 @@ Platform: Windows 11 x64
 
 ### Key packages
 
-```
-data.table
-dplyr
-tidyr
-stringr
-GenomicRanges
-IRanges
-rtracklayer
-pheatmap
-```
+* data.table
+* dplyr
+* tidyr
+* stringr
+* GenomicRanges
+* IRanges
+* rtracklayer
+* pheatmap
 
 ---
 
-## 🔁 Reproducibility
+## Reproducibility
 
 To reproduce the analysis:
 
-1. Download ENCODE `.bed.gz` files
-2. Generate `metadata.tsv`
+1. Download ENCODE `.bed.gz` peak files
+2. Generate `metadata.tsv` via ENCODE API
 3. Download GENCODE v49 annotation
-4. Run:
+4. Place all files in the working directory
+5. Run:
 
 ```r
-source("scripts/03_promoter_overlap.R")
+source("script.R")
 ```
+
+The script will automatically detect input files, perform overlap analysis, and generate all output tables and figures.
 
 ---
 
-## ⚠️ Notes
+## Notes
 
-* Only **processed peak files (.bed.gz)** were used
-* Results depend on:
-
-  * ENCODE dataset availability
-  * TF coverage per cell line
+* Only processed peak files (`.bed.gz`) were used
+* Results depend on dataset availability and TF coverage
 * Promoter-based analysis is robust to minor annotation differences
 
 ---
-
-## 📚 Citation
-
-If using this workflow, cite:
-
-* ENCODE Project
-* GENCODE annotation
-
----
-
-## 👤 Author
-
-**Shynggys Tursymbek**
-PhD student — Biomedical Sciences
-
----
-
-Если хочешь — могу дальше:
-
-* 🔥 добавить **figure section (как в статье Cell/STAR methods)**
-* 🔥 сделать **README под Nature / Cell Press стиль**
-* 🔥 или сразу собрать **Methods section для статьи из этого README**
