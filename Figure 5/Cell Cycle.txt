@@ -1,5 +1,5 @@
 ## =========================================================
-## 
+## NKG2DL and Cell Cycle
 ## =========================================================
 suppressPackageStartupMessages({
     library(Seurat)
@@ -8,6 +8,7 @@ suppressPackageStartupMessages({
     library(tibble)
     library(ggplot2)
     library(scatterpie)
+    library(grid)
 })
 
 setwd("D:/NKG2D project/GSE214231_RAW/starCAT_run")
@@ -214,7 +215,7 @@ car_xy$NKG2DL_z <- as.numeric(scale(car_xy$NKG2DL_mean))
 plot_df <- car_xy %>%
     left_join(pie_wide, by = "CAR_Variant")
 
-plot_df$radius_fixed <- 0.20
+plot_df$radius_fixed <- 0.24
 
 write.csv(
     plot_df,
@@ -226,16 +227,16 @@ write.csv(
 ## 9. COLORS
 ## =========================================================
 pie_fill <- c(
-    "CD4-CM"    = "#D55E5E",  # muted coral red
-    "CD4-EM"    = "#C98A2E",  # warm amber
-    "CD4-Naive" = "#B7A43A",  # olive gold
-    "CD8-CM"    = "#4DAF4A",  # muted green
-    "CD8-EM"    = "#2FAE8F",  # teal-green
-    "CD8-Naive" = "#3FA7C9",  # soft cyan
-    "CD8-TEMRA" = "#4F83C2",  # muted blue
-    "gdT"       = "#7B6FD0",  # soft violet-blue
-    "MAIT"      = "#B96AC9",  # muted magenta
-    "Treg"      = "#E07AAE"   # dusty pink
+    "CD4-CM"    = "#D55E5E",
+    "CD4-EM"    = "#C98A2E",
+    "CD4-Naive" = "#B7A43A",
+    "CD8-CM"    = "#4DAF4A",
+    "CD8-EM"    = "#2FAE8F",
+    "CD8-Naive" = "#3FA7C9",
+    "CD8-TEMRA" = "#4F83C2",
+    "gdT"       = "#7B6FD0",
+    "MAIT"      = "#B96AC9",
+    "Treg"      = "#E07AAE"
 )
 
 missing_cols <- setdiff(pie_cols, names(pie_fill))
@@ -248,6 +249,31 @@ if (length(missing_cols) > 0) {
 pie_fill <- pie_fill[pie_cols]
 
 ## =========================================================
+## Common plot theme
+## =========================================================
+plot_theme <- theme_classic(base_size = 18) +
+    theme(
+        axis.text = element_text(
+            size = 18,
+            color = "black"
+        ),
+        axis.title = element_text(
+            size = 20,
+            face = "bold",
+            color = "black"
+        ),
+        plot.title = element_text(
+            size = 22,
+            face = "bold",
+            hjust = 0.5,
+            color = "black"
+        ),
+        legend.title = element_blank(),
+        legend.text = element_text(size = 18),
+        legend.key.size = unit(1.2, "cm")
+    )
+
+## =========================================================
 ## 10. PLOT 1 — X = S phase, Y = NKG2DL
 ## =========================================================
 label_offset <- 0.18
@@ -258,7 +284,7 @@ p_S <- ggplot() +
         aes(x = S_z, y = NKG2DL_z, r = radius_fixed),
         cols = pie_cols,
         color = "black",
-        size = 0.15,
+        size = 0.25,
         alpha = 0.95
     ) +
     geom_text(
@@ -268,12 +294,12 @@ p_S <- ggplot() +
             y = NKG2DL_z - label_offset,
             label = CAR_Variant
         ),
-        size = 3.2,
+        size = 5.5,
         color = "black"
     ) +
     scale_fill_manual(values = pie_fill) +
     coord_equal() +
-    theme_classic(base_size = 18) +
+    plot_theme +
     labs(
         x = "S phase score (Z-score)",
         y = "NKG2DL score (Z-score)",
@@ -288,7 +314,6 @@ ggsave(
     dpi = 300
 )
 
-
 ##==========================================================
 ## No labels
 ##==========================================================
@@ -299,18 +324,12 @@ p_S_nolabel <- ggplot() +
         aes(x = S_z, y = NKG2DL_z, r = radius_fixed),
         cols = pie_cols,
         color = "black",
-        size = 0.15,
+        size = 0.25,
         alpha = 0.95
     ) +
     scale_fill_manual(values = pie_fill) +
     coord_equal() +
-    theme_classic(base_size = 18) +
-    theme(
-        legend.position = "right",
-        axis.title = element_text(size = 18, face = "bold"),
-        axis.text = element_text(size = 14),
-        plot.title = element_text(size = 20, face = "bold", hjust = 0.5)
-    ) +
+    plot_theme +
     labs(
         x = "S phase score (Z-score)",
         y = "NKG2DL score (Z-score)",
@@ -325,7 +344,6 @@ ggsave(
     dpi = 300
 )
 
-
 ## =========================================================
 ## 11. PLOT 2 — X = G2M, Y = NKG2DL
 ## =========================================================
@@ -335,7 +353,7 @@ p_G2M <- ggplot() +
         aes(x = G2M_z, y = NKG2DL_z, r = radius_fixed),
         cols = pie_cols,
         color = "black",
-        size = 0.15,
+        size = 0.25,
         alpha = 0.95
     ) +
     geom_text(
@@ -345,12 +363,12 @@ p_G2M <- ggplot() +
             y = NKG2DL_z - label_offset,
             label = CAR_Variant
         ),
-        size = 3.2,
+        size = 5.5,
         color = "black"
     ) +
     scale_fill_manual(values = pie_fill) +
     coord_equal() +
-    theme_classic(base_size = 18) +
+    plot_theme +
     labs(
         x = "G2M score (Z-score)",
         y = "NKG2DL score (Z-score)",
@@ -375,18 +393,12 @@ p_G2M_nolabel <- ggplot() +
         aes(x = G2M_z, y = NKG2DL_z, r = radius_fixed),
         cols = pie_cols,
         color = "black",
-        size = 0.15,
+        size = 0.25,
         alpha = 0.95
     ) +
     scale_fill_manual(values = pie_fill) +
     coord_equal() +
-    theme_classic(base_size = 18) +
-    theme(
-        legend.position = "right",
-        axis.title = element_text(size = 18, face = "bold"),
-        axis.text = element_text(size = 14),
-        plot.title = element_text(size = 20, face = "bold", hjust = 0.5)
-    ) +
+    plot_theme +
     labs(
         x = "G2M score (Z-score)",
         y = "NKG2DL score (Z-score)",
@@ -400,8 +412,6 @@ ggsave(
     height = 10,
     dpi = 300
 )
-
-
 
 cat("\nDone.\n")
 cat("Created files:\n")
