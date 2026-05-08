@@ -305,7 +305,9 @@ This script calculates total NKG2D ligand expression for each CAR variant.
 
 The total ligand score was calculated as:
 
-NKG2DL_{sum}=\sum_{i=1}^{n}Expression_{ligand_i}
+$$
+NKG2DL_{sum} = \sum_{i=1}^{n} Expression_{ligand_i}
+$$
 
 using:
 
