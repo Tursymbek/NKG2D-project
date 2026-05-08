@@ -50,7 +50,7 @@ gencode.v49.basic.annotation.gtf
 This annotation file corresponds to:
 
 * Human genome assembly: hg38 / GRCh38
-* Source: [GENCODE Release 49](https://www.gencodegenes.org/human/release_49.html)
+* Source: [GENCODE Release 49](https://www.gencodegenes.org/human/release_49.html), [download gencode.v49.basic.annotation.gtf](https://ftp.ebi.ac.uk/pub/databases/gencode/Gencode_human/release_49/gencode.v49.basic.annotation.gtf.gz)
 
 The GTF annotation was used by Taiji to:
 
