@@ -486,5 +486,10 @@ The workflow generated:
 If using this workflow, please cite:
 
 > Castellanos-Rueda R, Di Roberto RB, Biebrich F, Schlatter FS et al.
-> speedingCARs: accelerating the engineering of CAR T cells by signaling domain shuffling and single-cell sequencing.
-> Nat Commun. 2022 Nov 2;13(1):6555.
+> *speedingCARs: accelerating the engineering of CAR T cells by signaling domain shuffling and single-cell sequencing.*
+> Nature Communications. 2022;13(1):6555. https://doi.org/10.1038/s41467-022-34141-8
+
+>Kotliar, D., Curtis, M., Agnew, R., Weinand, K., Nathan, A., Baglaenko, Y., '
+>Slowikowski, K., Zhao, Y., Sabeti, P. C., Rao, D. A., & Raychaudhuri, S. (2025). '
+>Reproducible single-cell annotation of programs underlying T cell subsets, activation states and functions.
+>Nature methods, 22(9), 1964–1980. https://doi.org/10.1038/s41592-025-02793-1
