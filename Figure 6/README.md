@@ -19,7 +19,7 @@ The workflow aimed to:
 ## Taiji
 
 * Version: Taiji v1.3.0
-* Website: Taiji pipeline: [web-site](https://taiji-pipeline.github.io/), [git-hub](https://github.com/Taiji-pipeline/Taiji)
+* Website: Taiji pipeline([web-site](https://taiji-pipeline.github.io/), [git-hub](https://github.com/Taiji-pipeline/Taiji))
 * Executed in:
 
   * Ubuntu (WSL2)
