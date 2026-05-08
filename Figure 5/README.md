@@ -130,7 +130,7 @@ The following NKG2D ligands were included:
 # 1. Data preparation and starCAT analysis
 
 File:
-`Data preparation - TCAT.txt` 
+`Data preparation - TCAT.R` 
 
 ## Purpose
 
@@ -237,7 +237,7 @@ TCAT scores and dominant programs were re-imported into Seurat metadata.
 # 2. UMAP and CAR composition analysis
 
 File:
-`UMAP, Composition.txt` 
+`UMAP, Composition.R` 
 
 ## Purpose
 
@@ -295,7 +295,7 @@ CARs were ranked according to:
 # 3. NKG2D ligand score by CAR
 
 File:
-`NKG2D ligand SUM score by CAR.txt` 
+`NKG2D ligand SUM score by CAR.R` 
 
 ## Purpose
 
