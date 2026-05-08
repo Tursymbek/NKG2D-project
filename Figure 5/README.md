@@ -333,7 +333,7 @@ geom_col()
 # 4. Correlation between TCAT programs and NKG2D ligands
 
 File:
-`Correlation with ligands clean.txt` 
+`Correlation with ligands clean.R` 
 
 ## Purpose
 
@@ -400,7 +400,7 @@ Correlation coefficient (rho) visualization.
 # 5. Cell cycle and NKG2D ligand analysis
 
 File:
-`Cell Cycle.txt` 
+`Cell Cycle.R` 
 
 ## Purpose
 
@@ -457,6 +457,154 @@ Coordinates were converted into Z-scores before plotting.
 * `FilteredCAR_PieScatter_G2M_vs_NKG2DL_NO_LABELS.png`
 
 ---
+
+# 6. TCAT program usage and NKG2D ligand association
+
+File:
+`TCAT program and NKG2D level.R` 
+
+## Purpose
+
+This script evaluates associations between TCAT-derived T-cell programs and NKG2D ligand expression at the single-cell level.
+
+The analysis was designed to identify transcriptional and functional T-cell states associated with elevated NKG2D ligand expression.
+
+---
+
+## TCAT programs analyzed
+
+The script evaluates multiple TCAT-defined programs, including:
+
+### Memory and differentiation programs
+
+* CD4-CM
+* CD4-Naive
+* CD8-Naive
+* CD8-EM
+* CD8-Trm
+* TEMRA
+
+### Functional states
+
+* Cytotoxic
+* Exhaustion
+* Treg
+* MAIT
+* gdT
+
+### Helper T-cell programs
+
+* Th1-Like
+* Th1-1
+* Th2
+* Th17
+* Th22
+* Tfh
+* Tph
+
+### Activation and signaling programs
+
+* ICOS/CD38
+* CTLA4/CD38
+* OX40/EBI3
+* TIMD4/TIM3
+* SOX4/TOX2
+* IL10/IL19
+
+### Stress and inflammatory programs
+
+* ISG
+* HLA
+* IEG
+* IEG2
+* IEG3
+
+### Cell cycle programs
+
+* CellCycle-S
+* CellCycle-G2M
+* CellCycle-Late-S
+
+---
+
+## NKG2D ligand scoring
+
+The following ligands were included:
+
+* MICA
+* MICB
+* ULBP1
+* ULBP2
+* ULBP3
+* ULBP4 (RAET1E)
+* ULBP5 (RAET1G)
+* ULBP6 (RAET1L)
+
+The total NKG2D ligand score was calculated as:
+
+NKG2DL_{sum}=\sum_{i=1}^{n}Expression_{ligand_i}
+
+using row-wise summation across all available ligand genes.
+
+---
+
+## Statistical analysis
+
+Spearman correlation analysis was performed between:
+
+* TCAT program usage scores
+* individual NKG2D ligands
+* total NKG2D ligand score
+
+using:
+
+```r
+cor.test(method = "spearman")
+```
+
+Multiple testing correction was performed using the Benjamini-Hochberg method:
+
+```r
+p.adjust(method = "BH")
+```
+
+---
+
+## Heatmap visualization
+
+A correlation heatmap was generated where:
+
+* red = positive association
+* blue = negative association
+* color intensity = Spearman rho
+
+The heatmap summarizes associations between:
+
+* TCAT transcriptional programs
+* NKG2D ligand expression
+
+---
+
+## Dotplot visualization
+
+A dotplot was additionally generated where:
+
+* dot color = correlation coefficient
+* dot size = statistical significance (-log10 FDR)
+
+This visualization enables rapid identification of highly significant TCAT–NKG2DL associations.
+
+---
+
+## Main outputs
+
+* `TCAT_vs_NKG2DL_correlation_table_with_SUM.csv`
+* `TCAT_vs_NKG2DL_correlation_heatmap_with_SUM.png`
+* `TCAT_vs_NKG2DL_correlation_dotplot_with_SUM.png`
+* `TCAT_vs_NKG2DL_top_hits_with_SUM.csv`
+
+---
+
 
 # Output summary
 
