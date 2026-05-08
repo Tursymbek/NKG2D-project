@@ -18,7 +18,7 @@ GEO accession: **GSE214231**
 
 ---
 
-# Dataset description
+## Dataset description
 
 The original study generated a library of approximately 180 unique CAR variants integrated into primary human T cells using CRISPR-Cas9 engineering. Functional pooled screening was performed by co-culture with HER2-positive SKBR3 breast cancer cells followed by:
 
@@ -29,7 +29,7 @@ The processed data were downloaded from GEO.
 
 ---
 
-# GEO files used
+## GEO files used
 
 The following files were used from GEO:
 
