@@ -1,0 +1,19 @@
+type	id	group	rep	path	format	tags
+ATAC-seq	A549_peak	HIGH	1	ATAC/A549.bed.gz	NarrowPeak	
+ATAC-seq	A549_bed	HIGH	1	ATAC/A549.clean.bed	Bed	
+RNA-seq	A549_rna	HIGH	1	RNA/A549_gene_quant.tsv		GeneQuant
+ATAC-seq	HEPG2_peak	HIGH	1	ATAC/HEPG2.bed.gz	NarrowPeak	
+ATAC-seq	HEPG2_bed	HIGH	1	ATAC/HEPG2.clean.bed	Bed	
+RNA-seq	HEPG2_rna	HIGH	1	RNA/HEPG2_gene_quant.tsv		GeneQuant
+ATAC-seq	NCIH929_peak	HIGH	1	ATAC/NCIH929.bed.gz	NarrowPeak	
+ATAC-seq	NCIH929_bed	HIGH	1	ATAC/NCIH929.clean.bed	Bed	
+RNA-seq	NCIH929_rna	HIGH	1	RNA/NCIH929_gene_quant.tsv		GeneQuant
+ATAC-seq	PANC1_peak	LOW	1	ATAC/PANC1.bed.gz	NarrowPeak	
+ATAC-seq	PANC1_bed	LOW	1	ATAC/PANC1.clean.bed	Bed	
+RNA-seq	PANC1_rna	LOW	1	RNA/PANC1_gene_quant.tsv		GeneQuant
+ATAC-seq	PC3_peak	LOW	1	ATAC/PC3.bed.gz	NarrowPeak	
+ATAC-seq	PC3_bed	LOW	1	ATAC/PC3.clean.bed	Bed	
+RNA-seq	PC3_rna	LOW	1	RNA/PC3_gene_quant.tsv		GeneQuant
+ATAC-seq	SKNSH_peak	LOW	1	ATAC/SKNSH.bed.gz	NarrowPeak	
+ATAC-seq	SKNSH_bed	LOW	1	ATAC/SKNSH.clean.bed	Bed	
+RNA-seq	SKNSH_rna	LOW	1	RNA/SKNSH_gene_quant.tsv		GeneQuant
