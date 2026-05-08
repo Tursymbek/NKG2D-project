@@ -67,7 +67,7 @@ The following sample folders were imported with `Read10X()`:
 
 ---
 
-# Analysis overview
+## Analysis overview
 
 The workflow consisted of:
 
@@ -85,7 +85,7 @@ The workflow consisted of:
 
 ---
 
-# Software environment
+## Software environment
 
 Analysis was performed in:
 
@@ -106,7 +106,7 @@ Main packages:
 
 ---
 
-# NKG2D ligands analyzed
+## NKG2D ligands analyzed
 
 The following NKG2D ligands were included:
 
@@ -123,11 +123,11 @@ The following NKG2D ligands were included:
 
 ---
 
-# Script descriptions
+## Script descriptions
 
 ---
 
-# 1. Data preparation and starCAT analysis
+## 1. Data preparation and starCAT analysis
 
 File:
 `Data preparation - TCAT.R` 
@@ -234,7 +234,7 @@ TCAT scores and dominant programs were re-imported into Seurat metadata.
 
 ---
 
-# 2. UMAP and CAR composition analysis
+## 2. UMAP and CAR composition analysis
 
 File:
 `UMAP, Composition.R` 
@@ -292,7 +292,7 @@ CARs were ranked according to:
 
 ---
 
-# 3. NKG2D ligand score by CAR
+## 3. NKG2D ligand score by CAR
 
 File:
 `NKG2D ligand SUM score by CAR.R` 
@@ -317,14 +317,6 @@ using:
 
 The score was averaged across all cells belonging to the same CAR variant.
 
-## Visualization
-
-A Cell Press-style blue barplot was generated using:
-
-```r
-geom_col()
-```
-
 ## Main outputs
 
 * `CAR_NKG2DL_sum_scores.csv`
@@ -332,7 +324,7 @@ geom_col()
 
 ---
 
-# 4. Correlation between TCAT programs and NKG2D ligands
+## 4. Correlation between TCAT programs and NKG2D ligands
 
 File:
 `Correlation with ligands clean.R` 
@@ -460,7 +452,7 @@ Coordinates were converted into Z-scores before plotting.
 
 ---
 
-# 6. TCAT program usage and NKG2D ligand association
+## 6. TCAT program usage and NKG2D ligand association
 
 File:
 `TCAT program and NKG2D level.R` 
@@ -544,8 +536,9 @@ The following ligands were included:
 
 The total NKG2D ligand score was calculated as:
 
-NKG2DL_{sum}=\sum_{i=1}^{n}Expression_{ligand_i}
-
+$$
+NKG2DL_{sum} = \sum_{i=1}^{n} Expression_{ligand_i}
+$$
 using row-wise summation across all available ligand genes.
 
 ---
@@ -608,7 +601,7 @@ This visualization enables rapid identification of highly significant TCAT–NKG
 ---
 
 
-# Output summary
+## Output summary
 
 The workflow generated:
 
@@ -623,7 +616,7 @@ The workflow generated:
 
 ---
 
-# Notes
+## Notes
 
 * Only CAR variants with at least 100 cells were retained for downstream analysis.
 * TCAT/starCAT annotations were based on the TCAT.V1 reference.
@@ -631,7 +624,7 @@ The workflow generated:
 
 ---
 
-# Citation
+## Citation
 
 If using this workflow, please cite:
 
