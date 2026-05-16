@@ -90,32 +90,6 @@ This limitation directly influenced downstream cell line selection.
 
 ---
 
-## Important Note
-
-The dataset represents a **curated subset of ENCODE**, not the full repository.
-
-All included ATAC-seq datasets correspond to:
-
-* untreated conditions
-* standard culture conditions
-* baseline chromatin accessibility
-
-This ensures that differences observed between cell lines reflect **intrinsic biological variation**, rather than experimental perturbations.
-
----
-
-From this set, a subset of biologically relevant cell lines was selected for downstream analysis and stratification based on NKG2D ligand expression:
-
-| Cell Line | Group |
-| --------- | ----- |
-| A549      | High  |
-| HCT116    | High  |
-| PC-3      | High  |
-| HepG2     | Low   |
-| NCI-H929  | Low   |
-
----
-
 ## Analysis Workflow
 
 ### 1. Cell line mapping
@@ -156,6 +130,18 @@ Cell lines ranked by NKG2DL_sum and grouped into:
 
 * **HIGH expression**
 * **LOW expression**
+
+---
+
+From this set, a subset of biologically relevant cell lines was selected for downstream analysis and stratification based on NKG2D ligand expression:
+
+| Cell Line | Group |
+| --------- | ----- |
+| A549      | High  |
+| HCT116    | High  |
+| PC-3      | High  |
+| HepG2     | Low   |
+| NCI-H929  | Low   |
 
 ---
 
