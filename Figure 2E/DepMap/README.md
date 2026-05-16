@@ -45,11 +45,66 @@ NKG2DL_{sum} = \sum_{i=1}^{n} Expression_{ligand_i}
 
 ---
 
-## Cell Line Selection
+## ENCODE Data Filtering Criteria
 
-Cell lines were selected based on availability in DepMap and relevance to downstream analyses.
+ATAC-seq datasets were obtained from ENCODE using strict filtering criteria to ensure consistency and biological relevance.
 
-### Final cell lines:
+### Selection filters:
+
+* **Assay type:** ATAC-seq
+* **Organism:** *Homo sapiens*
+* **Biosample classification:** cell line
+* **Cell type:** cancer cell
+* **Biosample treatment:** no treatment
+
+---
+
+## Rationale for Filtering
+
+These filters were applied to:
+
+* ensure all samples represent **untreated baseline chromatin states**
+* avoid confounding effects from:
+
+  * drug treatments
+  * cytokine stimulation
+  * genetic perturbations
+* maintain **comparability across cell lines**
+
+---
+
+## Additional Constraints
+
+Following filtering, only a limited number of cancer cell lines were available in ENCODE:
+
+* HCT116
+* K562
+* A549
+* HepG2
+* MCF-7
+* NCI-H929
+* PC-3
+* Panc1
+
+This limitation directly influenced downstream cell line selection.
+
+---
+
+## Important Note
+
+The dataset represents a **curated subset of ENCODE**, not the full repository.
+
+All included ATAC-seq datasets correspond to:
+
+* untreated conditions
+* standard culture conditions
+* baseline chromatin accessibility
+
+This ensures that differences observed between cell lines reflect **intrinsic biological variation**, rather than experimental perturbations.
+
+---
+
+From this set, a subset of biologically relevant cell lines was selected for downstream analysis and stratification based on NKG2D ligand expression:
 
 | Cell Line | Group |
 | --------- | ----- |
