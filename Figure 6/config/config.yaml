@@ -1,4 +1,0 @@
-input: "meta/samples.tsv"
-output_dir: "results/"
-assembly: "hg38"
-annotation: "./gencode.v49.basic.annotation.gtf"
