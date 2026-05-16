@@ -118,12 +118,6 @@ network:
 
 ## samples.yml (format)
 
-Key rules:
-- ATAC-seq files: use `format: NarrowPeak` (NOT in tags)
-- RNA-seq GeneQuant files: use `tags: ['GeneQuant']` (NOT in format)
-- No empty lines
-- Indentation with spaces only (no tabs)
-
 ```yaml
 ATAC-seq:
   - id: A549_ATAC
