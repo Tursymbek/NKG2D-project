@@ -183,8 +183,6 @@ Reduce threads to avoid OOM crash:
 ~/taiji-Ubuntu-x86_64 run --config config.yaml -n 1 +RTS -N1
 ```
 
-> **Note:** Taiji resumes from where it stopped — it is safe to stop and restart at any time.
-
 ---
 
 ## Pipeline Steps and Expected Duration
