@@ -20,7 +20,9 @@ To capture this variability, ligand expression is aggregated into a single quant
 
 The total NKG2D ligand expression score is calculated as:
 
-**NKG2DL_{sum} = \sum_{i=1}^{n} Expression_{ligand_i}**
+$$
+NKG2DL_{sum} = \sum_{i=1}^{n} Expression_{ligand_i}
+$$
 
 ### Ligands included:
 
