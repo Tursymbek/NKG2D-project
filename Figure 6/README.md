@@ -72,7 +72,7 @@ wsl --shutdown
 ├── gencode.v49.basic.annotation.gtf
 ├── config.yaml
 ├── samples.yml
-├── sciflow.db                   # Taiji cache — DO NOT DELETE unless necessary
+├── sciflow.db                   
 └── results/
 ```
 
