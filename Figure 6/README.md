@@ -1,4 +1,4 @@
-# Taiji 1.3 — Complete Setup and Run Guide
+# Taiji 1.3 — Complete Setup and Run Workflow
 ## NKG2D Project: ATAC-seq + RNA-seq Transcription Factor Analysis
 
 ---
