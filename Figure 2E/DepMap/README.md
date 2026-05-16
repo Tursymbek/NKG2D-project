@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project quantifies **NKG2D ligand (NKG2DL) expression** across selected cancer cell lines using DepMap RNA-seq data and stratifies them into **HIGH** and **LOW** groups based on total ligand expression.
+This project quantifies **NKG2D ligand (NKG2DL) expression** across selected cancer cell lines using DepMap RNA-seq data and stratifies them into **HIGH** and **LOW** groups based on total ligand expression for following Taiji (v1.3) analysis.
 
 The analysis is fully reproducible and implemented in R.
 
@@ -120,9 +120,9 @@ R session used:
 
 ### Key packages:
 
-* data.table
-* dplyr
-* stringr
+* data.table (1.18.2.1)
+* dplyr (1.2.0)
+* stringr (1.6.0)
 
 ---
 
