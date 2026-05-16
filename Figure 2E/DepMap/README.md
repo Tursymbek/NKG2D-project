@@ -211,10 +211,3 @@ This workflow provides a reproducible approach to:
 * quantify NKG2D ligand expression across cancer cell lines
 * compare ligand abundance
 * stratify models for downstream immunological analysis
-
----
-
-## Author
-
-Shynggys Tursymbek
-PhD Candidate, Biomedical Sciences
