@@ -1,0 +1,14 @@
+assembly: hg38
+
+genome: "/mnt/d/NKG2D project/TAIJIv1.3/reference/hg38.fa"
+
+annotation: "/mnt/d/NKG2D project/TAIJIv1.3/gencode.v49.basic.annotation.gtf"
+
+input: samples.yml
+
+output_dir: results
+
+threads: 8
+
+network:
+  enhancerPromoterDistance: 500000

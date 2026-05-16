@@ -1,0 +1,385 @@
+ATAC-seq:
+  - id: A549_ATAC
+    group: High
+    replicates:
+      - rep: 1
+        files:
+          - path: ATAC/ENCFF018OJP.bed.gz
+            format: NarrowPeak
+      - rep: 2
+        files:
+          - path: ATAC/ENCFF020EUE.bed.gz
+            format: NarrowPeak
+      - rep: 3
+        files:
+          - path: ATAC/ENCFF022BIK.bed.gz
+            format: NarrowPeak
+      - rep: 4
+        files:
+          - path: ATAC/ENCFF036AMC.bed.gz
+            format: NarrowPeak
+      - rep: 5
+        files:
+          - path: ATAC/ENCFF110LOX.bed.gz
+            format: NarrowPeak
+      - rep: 6
+        files:
+          - path: ATAC/ENCFF117JPF.bed.gz
+            format: NarrowPeak
+      - rep: 7
+        files:
+          - path: ATAC/ENCFF143XED.bed.gz
+            format: NarrowPeak
+      - rep: 8
+        files:
+          - path: ATAC/ENCFF172ZTK.bed.gz
+            format: NarrowPeak
+      - rep: 9
+        files:
+          - path: ATAC/ENCFF181FFW.bed.gz
+            format: NarrowPeak
+      - rep: 10
+        files:
+          - path: ATAC/ENCFF197CSK.bed.gz
+            format: NarrowPeak
+      - rep: 11
+        files:
+          - path: ATAC/ENCFF237URW.bed.gz
+            format: NarrowPeak
+      - rep: 12
+        files:
+          - path: ATAC/ENCFF422RQI.bed.gz
+            format: NarrowPeak
+      - rep: 13
+        files:
+          - path: ATAC/ENCFF429FOV.bed.gz
+            format: NarrowPeak
+      - rep: 14
+        files:
+          - path: ATAC/ENCFF435WAN.bed.gz
+            format: NarrowPeak
+      - rep: 15
+        files:
+          - path: ATAC/ENCFF463DJH.bed.gz
+            format: NarrowPeak
+      - rep: 16
+        files:
+          - path: ATAC/ENCFF516KWQ.bed.gz
+            format: NarrowPeak
+      - rep: 17
+        files:
+          - path: ATAC/ENCFF525YKE.bed.gz
+            format: NarrowPeak
+      - rep: 18
+        files:
+          - path: ATAC/ENCFF548DNV.bed.gz
+            format: NarrowPeak
+      - rep: 19
+        files:
+          - path: ATAC/ENCFF619XXH.bed.gz
+            format: NarrowPeak
+      - rep: 20
+        files:
+          - path: ATAC/ENCFF663LWI.bed.gz
+            format: NarrowPeak
+      - rep: 21
+        files:
+          - path: ATAC/ENCFF674RFR.bed.gz
+            format: NarrowPeak
+      - rep: 22
+        files:
+          - path: ATAC/ENCFF681TUR.bed.gz
+            format: NarrowPeak
+      - rep: 23
+        files:
+          - path: ATAC/ENCFF753XQZ.bed.gz
+            format: NarrowPeak
+      - rep: 24
+        files:
+          - path: ATAC/ENCFF754DCB.bed.gz
+            format: NarrowPeak
+      - rep: 25
+        files:
+          - path: ATAC/ENCFF771OGQ.bed.gz
+            format: NarrowPeak
+      - rep: 26
+        files:
+          - path: ATAC/ENCFF795ASF.bed.gz
+            format: NarrowPeak
+      - rep: 27
+        files:
+          - path: ATAC/ENCFF804MVZ.bed.gz
+            format: NarrowPeak
+      - rep: 28
+        files:
+          - path: ATAC/ENCFF812CUZ.bed.gz
+            format: NarrowPeak
+      - rep: 29
+        files:
+          - path: ATAC/ENCFF813DSX.bed.gz
+            format: NarrowPeak
+      - rep: 30
+        files:
+          - path: ATAC/ENCFF848NZM.bed.gz
+            format: NarrowPeak
+      - rep: 31
+        files:
+          - path: ATAC/ENCFF857ZHU.bed.gz
+            format: NarrowPeak
+      - rep: 32
+        files:
+          - path: ATAC/ENCFF886VWX.bed.gz
+            format: NarrowPeak
+      - rep: 33
+        files:
+          - path: ATAC/ENCFF894TJN.bed.gz
+            format: NarrowPeak
+      - rep: 34
+        files:
+          - path: ATAC/ENCFF948AQW.bed.gz
+            format: NarrowPeak
+      - rep: 35
+        files:
+          - path: ATAC/ENCFF964AUZ.bed.gz
+            format: NarrowPeak
+      - rep: 36
+        files:
+          - path: ATAC/ENCFF965ILK.bed.gz
+            format: NarrowPeak
+
+  - id: HCT116_ATAC
+    group: High
+    replicates:
+      - rep: 1
+        files:
+          - path: ATAC/ENCFF035BSF.bed.gz
+            format: NarrowPeak
+      - rep: 2
+        files:
+          - path: ATAC/ENCFF054UBO.bed.gz
+            format: NarrowPeak
+      - rep: 3
+        files:
+          - path: ATAC/ENCFF155NTI.bed.gz
+            format: NarrowPeak
+      - rep: 4
+        files:
+          - path: ATAC/ENCFF209UDP.bed.gz
+            format: NarrowPeak
+      - rep: 5
+        files:
+          - path: ATAC/ENCFF257DMN.bed.gz
+            format: NarrowPeak
+      - rep: 6
+        files:
+          - path: ATAC/ENCFF321FBR.bed.gz
+            format: NarrowPeak
+      - rep: 7
+        files:
+          - path: ATAC/ENCFF338EFN.bed.gz
+            format: NarrowPeak
+      - rep: 8
+        files:
+          - path: ATAC/ENCFF370EDY.bed.gz
+            format: NarrowPeak
+      - rep: 9
+        files:
+          - path: ATAC/ENCFF379NOI.bed.gz
+            format: NarrowPeak
+      - rep: 10
+        files:
+          - path: ATAC/ENCFF389NUT.bed.gz
+            format: NarrowPeak
+      - rep: 11
+        files:
+          - path: ATAC/ENCFF408VJA.bed.gz
+            format: NarrowPeak
+      - rep: 12
+        files:
+          - path: ATAC/ENCFF409NYB.bed.gz
+            format: NarrowPeak
+      - rep: 13
+        files:
+          - path: ATAC/ENCFF429LWF.bed.gz
+            format: NarrowPeak
+      - rep: 14
+        files:
+          - path: ATAC/ENCFF500OLT.bed.gz
+            format: NarrowPeak
+      - rep: 15
+        files:
+          - path: ATAC/ENCFF505PFO.bed.gz
+            format: NarrowPeak
+      - rep: 16
+        files:
+          - path: ATAC/ENCFF628DWR.bed.gz
+            format: NarrowPeak
+      - rep: 17
+        files:
+          - path: ATAC/ENCFF628WZB.bed.gz
+            format: NarrowPeak
+      - rep: 18
+        files:
+          - path: ATAC/ENCFF640GNQ.bed.gz
+            format: NarrowPeak
+      - rep: 19
+        files:
+          - path: ATAC/ENCFF647AGG.bed.gz
+            format: NarrowPeak
+      - rep: 20
+        files:
+          - path: ATAC/ENCFF660PIO.bed.gz
+            format: NarrowPeak
+      - rep: 21
+        files:
+          - path: ATAC/ENCFF679NSE.bed.gz
+            format: NarrowPeak
+      - rep: 22
+        files:
+          - path: ATAC/ENCFF692CRN.bed.gz
+            format: NarrowPeak
+      - rep: 23
+        files:
+          - path: ATAC/ENCFF847COV.bed.gz
+            format: NarrowPeak
+      - rep: 24
+        files:
+          - path: ATAC/ENCFF902OZN.bed.gz
+            format: NarrowPeak
+      - rep: 25
+        files:
+          - path: ATAC/ENCFF933TYP.bed.gz
+            format: NarrowPeak
+      - rep: 26
+        files:
+          - path: ATAC/ENCFF958VRD.bed.gz
+            format: NarrowPeak
+      - rep: 27
+        files:
+          - path: ATAC/ENCFF959FQW.bed.gz
+            format: NarrowPeak
+
+  - id: PC3_ATAC
+    group: High
+    replicates:
+      - rep: 1
+        files:
+          - path: ATAC/ENCFF061YKV.bed.gz
+            format: NarrowPeak
+      - rep: 2
+        files:
+          - path: ATAC/ENCFF369VMF.bed.gz
+            format: NarrowPeak
+      - rep: 3
+        files:
+          - path: ATAC/ENCFF742PNL.bed.gz
+            format: NarrowPeak
+
+  - id: HepG2_ATAC
+    group: Low
+    replicates:
+      - rep: 1
+        files:
+          - path: ATAC/ENCFF161ZZX.bed.gz
+            format: NarrowPeak
+      - rep: 2
+        files:
+          - path: ATAC/ENCFF438JMM.bed.gz
+            format: NarrowPeak
+      - rep: 3
+        files:
+          - path: ATAC/ENCFF576UEM.bed.gz
+            format: NarrowPeak
+      - rep: 4
+        files:
+          - path: ATAC/ENCFF609BSU.bed.gz
+            format: NarrowPeak
+      - rep: 5
+        files:
+          - path: ATAC/ENCFF791RKW.bed.gz
+            format: NarrowPeak
+      - rep: 6
+        files:
+          - path: ATAC/ENCFF851SSE.bed.gz
+            format: NarrowPeak
+      - rep: 7
+        files:
+          - path: ATAC/ENCFF915FZC.bed.gz
+            format: NarrowPeak
+      - rep: 8
+        files:
+          - path: ATAC/ENCFF919RKQ.bed.gz
+            format: NarrowPeak
+      - rep: 9
+        files:
+          - path: ATAC/ENCFF935GLR.bed.gz
+            format: NarrowPeak
+
+  - id: NCIH929_ATAC
+    group: Low
+    replicates:
+      - rep: 1
+        files:
+          - path: ATAC/ENCFF045KOG.bed.gz
+            format: NarrowPeak
+      - rep: 2
+        files:
+          - path: ATAC/ENCFF089MWN.bed.gz
+            format: NarrowPeak
+      - rep: 3
+        files:
+          - path: ATAC/ENCFF369SMB.bed.gz
+            format: NarrowPeak
+      - rep: 4
+        files:
+          - path: ATAC/ENCFF386YHU.bed.gz
+            format: NarrowPeak
+      - rep: 5
+        files:
+          - path: ATAC/ENCFF746BDQ.bed.gz
+            format: NarrowPeak
+      - rep: 6
+        files:
+          - path: ATAC/ENCFF786KPZ.bed.gz
+            format: NarrowPeak
+
+RNA-seq:
+  - id: A549_RNA
+    group: High
+    replicates:
+      - rep: 1
+        files:
+          - path: RNA/A549_gene_quant.tsv
+            tags: ['GeneQuant']
+
+  - id: HCT116_RNA
+    group: High
+    replicates:
+      - rep: 1
+        files:
+          - path: RNA/HCT_116_gene_quant.tsv
+            tags: ['GeneQuant']
+
+  - id: PC3_RNA
+    group: High
+    replicates:
+      - rep: 1
+        files:
+          - path: RNA/PC_3_gene_quant.tsv
+            tags: ['GeneQuant']
+
+  - id: HepG2_RNA
+    group: Low
+    replicates:
+      - rep: 1
+        files:
+          - path: RNA/Hep_G2_gene_quant.tsv
+            tags: ['GeneQuant']
+
+  - id: NCIH929_RNA
+    group: Low
+    replicates:
+      - rep: 1
+        files:
+          - path: RNA/NCI_H929_gene_quant.tsv
+            tags: ['GeneQuant']
