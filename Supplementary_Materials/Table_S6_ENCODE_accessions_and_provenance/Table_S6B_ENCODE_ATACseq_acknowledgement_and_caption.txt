@@ -1,5 +1,0 @@
-Acknowledgement text:
-We acknowledge the ENCODE Consortium and the ENCODE production laboratories that generated the ATAC-seq datasets used in this study. Dataset accession numbers and corresponding production laboratories are listed in Supplementary Table S6B.
-
-Table caption:
-Table S6B. ENCODE ATAC-seq datasets used for chromatin-accessibility analysis of NKG2D ligand regulatory regions. The table lists ENCODE experiment accessions, file accessions, biosample or cell-line information, and the corresponding ENCODE production laboratories.

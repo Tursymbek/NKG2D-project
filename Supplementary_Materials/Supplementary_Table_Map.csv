@@ -36,38 +36,38 @@ Figure S8,Figure S8 TCAT program correlations with NKG2DL expression/Library_onl
 Figure S8,Figure S8 TCAT program correlations with NKG2DL expression/Library_only_TCAT_vs_NKG2DL_correlation_table_with_SUM.csv,Supplementary Figure S8 output/source-data file for TCAT program correlations with NKG2DL expression.
 Figure S8,Figure S8 TCAT program correlations with NKG2DL expression/Library_only_TCAT_vs_NKG2DL_top_hits_with_SUM.csv,Supplementary Figure S8 output/source-data file for TCAT program correlations with NKG2DL expression.
 Figure S8,Figure S8 TCAT program correlations with NKG2DL expression/README.txt,Supplementary Figure S8 output/source-data file for TCAT program correlations with NKG2DL expression.
-S1,Table S1 TCGA GTEx tissue statistics/NKG2DL_tissue_statistics_final_0.8.csv,Final TCGA/GTEx tumor-normal tissue statistics used for the main tissue-level NKG2DL RNA analysis and Figure S1 context.
-S1,Table S1 TCGA GTEx tissue statistics/NKG2DL_tissue_statistics_threshold_sensitivity_0.5_0.6_0.8.csv,TCGA tumor-purity threshold sensitivity source data used for Figure S1.
-S2,Table_S2_TCGA_GTEx_per_sample/NKG2DL_per_sample_mapped_final_0.8.csv,Per-sample TCGA/GTEx composite NKG2DL RNA scores and sample annotations.
-S3,Table_S3_DepMap_CCLE_expression/DepMap_NKG2DL_score_all_cell_lines.tsv,DepMap/CCLE composite NKG2DL RNA-expression score for all cell lines.
-S3,Table_S3_DepMap_CCLE_expression/DepMap_NKG2DL_individual_ligand_expression_long.tsv,DepMap/CCLE long-format individual NKG2D ligand RNA-expression source data.
-S3,Table_S3_DepMap_CCLE_expression/DepMap_selected_cell_lines_NKG2DL.csv,Selected DepMap cancer-cell-line ligand-level NKG2DL RNA-expression table used for Figure S2.
-S4,Table_S4_DepMap_CRISPR_dependency/DepMap_NKG2DL_CRISPRGeneEffect_long.tsv,DepMap CRISPR/Chronos gene-effect source data for NKG2D ligand genes.
-S4,Table_S4_DepMap_CRISPR_dependency/DepMap_NKG2DL_CRISPRGeneEffect_summary.tsv,Summary statistics for DepMap CRISPR/Chronos NKG2D ligand gene-effect analysis used for Figure S3.
-S4,Table_S4_DepMap_CRISPR_dependency/Top50_NKG2DL_most_negative_gene_effect.tsv,Most negative DepMap CRISPR/Chronos NKG2D ligand gene-effect values for review of rare dependency calls.
-S5,Table_S5_Taiji_STRING_promoter_overlap/GeneRanks.tsv,Taiji regulatory ranking source data for candidate NKG2DL regulators.
-S5,Table_S5_Taiji_STRING_promoter_overlap/GeneRanks_PValues.tsv,Taiji regulatory ranking p-value source data for candidate NKG2DL regulators.
-S5,Table_S5_Taiji_STRING_promoter_overlap/string_MCL_clusters.tsv,STRING/MCL cluster assignments for candidate NKG2DL regulators.
-S5,Table_S5_Taiji_STRING_promoter_overlap/MATRIX_TF_x_NKG2DL_total_peaks.csv,TF-by-NKG2DL promoter-overlap matrix used for ENCODE promoter-overlap summaries.
-S5,Table_S5_Taiji_STRING_promoter_overlap/SUMMARY_TF_by_NKG2DL_gene_normalized.csv,Normalized TF-by-NKG2DL promoter-overlap summary table.
-S5,Table_S5_Taiji_STRING_promoter_overlap/TF_ChIPseq_NKG2DL_promoter_overlap_long.csv,Long-format TF ChIP-seq promoter-overlap source data for candidate NKG2DL regulators.
-S6,Table_S6_ENCODE_accessions_and_provenance/Table_S6B_ENCODE_ATACseq_accession_codes_separate_cells.csv,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
-S6,Table_S6_ENCODE_accessions_and_provenance/Table_S6B_ENCODE_ATACseq_accession_codes_separate_cells.xlsx,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
-S6,Table_S6_ENCODE_accessions_and_provenance/Table_S6B_ENCODE_ATACseq_acknowledgement_and_caption.txt,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
-S6,Table_S6_ENCODE_accessions_and_provenance/Table_S6_ENCODE_acknowledgement_and_caption.txt,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
-S6,Table_S6_ENCODE_accessions_and_provenance/Table_S6_ENCODE_TF_ChIPseq_accession_codes.csv,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
-S6,Table_S6_ENCODE_accessions_and_provenance/Table_S6_ENCODE_TF_ChIPseq_accession_codes.xlsx,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
-S6,Table_S6_ENCODE_accessions_and_provenance/Table_S6_ENCODE_TF_ChIPseq_accession_codes_separate_cells.csv,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
-S6,Table_S6_ENCODE_accessions_and_provenance/Table_S6_ENCODE_TF_ChIPseq_accession_codes_separate_cells.xlsx,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
-S7,Table_S7_single_cell_CAR_variant_analysis/Bulk_DESeq2_dotplot_CAR_vs_UTD_with_NKG2DL_data.csv,Bulk RNA-seq dot-plot source data for CAR versus UTD comparisons with NKG2DL genes.
-S7,Table_S7_single_cell_CAR_variant_analysis/CAR_program_summary_for_Figure_S7.csv,Derived CAR-level functional program and NKG2DL summary table used for Figure S7.
-S7,Table_S7_single_cell_CAR_variant_analysis/DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100_data.csv,Marker-gene dot-plot source data for Unstim CD28-CD3Z plus incubated CAR variants with more than 100 cells.
-S7,Table_S7_single_cell_CAR_variant_analysis/FilteredCAR_cell_table_CellCycle_NKG2DL_with_Unstim_CD28_CD3Z.csv,"Filtered single-cell table with CAR variant, TCAT state, cell-cycle and NKG2DL annotations including Unstim CD28-CD3Z."
-S7,Table_S7_single_cell_CAR_variant_analysis/FilteredCAR_PieScatter_coordinates_CellCycle_NKG2DL_Zscore_with_Unstim_CD28_CD3Z.csv,Pie-scatter coordinates and z-scored cell-cycle/NKG2DL summaries for filtered CAR variants including Unstim CD28-CD3Z.
-S7,Table_S7_single_cell_CAR_variant_analysis/FilteredCAR_pie_composition_with_Unstim_CD28_CD3Z.csv,Pie composition source data for filtered CAR variants including Unstim CD28-CD3Z.
-S7,Table_S7_single_cell_CAR_variant_analysis/Library_only_TCAT_cluster_composition_by_CAR.csv,TCAT cluster/state composition by CAR variant used for Figure S5.
-S7,Table_S7_single_cell_CAR_variant_analysis/Library_only_TCAT_vs_NKG2DL_correlation_table_with_SUM.csv,TCAT program correlation source table with individual NKG2DL ligands and NKG2DL_sum used for Figure S8.
-S7,Table_S7_single_cell_CAR_variant_analysis/Library_only_TCAT_vs_NKG2DL_top_hits_with_SUM.csv,Top TCAT-NKG2DL correlation hits including NKG2DL_sum.
-S7,Table_S7_single_cell_CAR_variant_analysis/Library_plus_Unstim28z_CAR_individual_NKG2DL_scores.csv,Individual NKG2D ligand scores by CAR variant including Unstim CD28-CD3Z used for Figure S6.
-S7,Table_S7_single_cell_CAR_variant_analysis/Library_plus_Unstim28z_CAR_NKG2DL_sum_scores.csv,Total NKG2DL score by CAR variant including Unstim CD28-CD3Z.
-S8,Table_S8_Clinical trails/Table_S8_Clinical trails.xlsx,Clinical trial and registry-level source table for NKG2D CAR-T studies in hematologic malignancies and solid tumors; reference numbers were harmonized with the updated manuscript bibliography.
+Table S2,Table_S2_TCGA_GTEx_tissue_statistics/NKG2DL_tissue_statistics_final_0.8.csv,Final TCGA/GTEx tumor-normal tissue statistics used for the main tissue-level NKG2DL RNA analysis and Figure S1 context.
+Table S2,Table_S2_TCGA_GTEx_tissue_statistics/NKG2DL_tissue_statistics_threshold_sensitivity_0.5_0.6_0.8.csv,TCGA tumor-purity threshold sensitivity source data used for Figure S1.
+Table S3,Table_S3_TCGA_GTEx_per_sample/NKG2DL_per_sample_mapped_final_0.8.csv,Per-sample TCGA/GTEx composite NKG2DL RNA scores and sample annotations.
+Table S4,Table_S4_DepMap_CCLE_expression/DepMap_NKG2DL_score_all_cell_lines.tsv,DepMap/CCLE composite NKG2DL RNA-expression score for all cell lines.
+Table S4,Table_S4_DepMap_CCLE_expression/DepMap_NKG2DL_individual_ligand_expression_long.tsv,DepMap/CCLE long-format individual NKG2D ligand RNA-expression source data.
+Table S4,Table_S4_DepMap_CCLE_expression/DepMap_selected_cell_lines_NKG2DL.csv,Selected DepMap cancer-cell-line ligand-level NKG2DL RNA-expression table used for Figure S2.
+Table S5,Table_S5_DepMap_CRISPR_dependency/DepMap_NKG2DL_CRISPRGeneEffect_long.tsv,DepMap CRISPR/Chronos gene-effect source data for NKG2D ligand genes.
+Table S5,Table_S5_DepMap_CRISPR_dependency/DepMap_NKG2DL_CRISPRGeneEffect_summary.tsv,Summary statistics for DepMap CRISPR/Chronos NKG2D ligand gene-effect analysis used for Figure S3.
+Table S5,Table_S5_DepMap_CRISPR_dependency/Top50_NKG2DL_most_negative_gene_effect.tsv,Most negative DepMap CRISPR/Chronos NKG2D ligand gene-effect values for review of rare dependency calls.
+Table S6,Table_S6_Taiji_STRING_promoter_overlap/GeneRanks.tsv,Taiji regulatory ranking source data for candidate NKG2DL regulators.
+Table S6,Table_S6_Taiji_STRING_promoter_overlap/GeneRanks_PValues.tsv,Taiji regulatory ranking p-value source data for candidate NKG2DL regulators.
+Table S6,Table_S6_Taiji_STRING_promoter_overlap/string_MCL_clusters.tsv,STRING/MCL cluster assignments for candidate NKG2DL regulators.
+Table S6,Table_S6_Taiji_STRING_promoter_overlap/MATRIX_TF_x_NKG2DL_total_peaks.csv,TF-by-NKG2DL promoter-overlap matrix used for ENCODE promoter-overlap summaries.
+Table S6,Table_S6_Taiji_STRING_promoter_overlap/SUMMARY_TF_by_NKG2DL_gene_normalized.csv,Normalized TF-by-NKG2DL promoter-overlap summary table.
+Table S6,Table_S6_Taiji_STRING_promoter_overlap/TF_ChIPseq_NKG2DL_promoter_overlap_long.csv,Long-format TF ChIP-seq promoter-overlap source data for candidate NKG2DL regulators.
+Table S7,Table_S7_ENCODE_accessions_and_provenance/Table_S7B_ENCODE_ATACseq_accession_codes_separate_cells.csv,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
+Table S7,Table_S7_ENCODE_accessions_and_provenance/Table_S7B_ENCODE_ATACseq_accession_codes_separate_cells.xlsx,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
+Table S7,Table_S7_ENCODE_accessions_and_provenance/Table_S7B_ENCODE_ATACseq_acknowledgement_and_caption.txt,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
+Table S7,Table_S7_ENCODE_accessions_and_provenance/Table_S7_ENCODE_acknowledgement_and_caption.txt,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
+Table S7,Table_S7_ENCODE_accessions_and_provenance/Table_S7_ENCODE_TF_ChIPseq_accession_codes.csv,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
+Table S7,Table_S7_ENCODE_accessions_and_provenance/Table_S7_ENCODE_TF_ChIPseq_accession_codes.xlsx,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
+Table S7,Table_S7_ENCODE_accessions_and_provenance/Table_S7_ENCODE_TF_ChIPseq_accession_codes_separate_cells.csv,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
+Table S7,Table_S7_ENCODE_accessions_and_provenance/Table_S7_ENCODE_TF_ChIPseq_accession_codes_separate_cells.xlsx,"ENCODE TF ChIP-seq and/or ATAC-seq accession, provenance, acknowledgement or caption file."
+Table S8,Table_S8_single_cell_CAR_variant_analysis/Bulk_DESeq2_dotplot_CAR_vs_UTD_with_NKG2DL_data.csv,Bulk RNA-seq dot-plot source data for CAR versus UTD comparisons with NKG2DL genes.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/CAR_program_summary_for_Figure_S7.csv,Derived CAR-level functional program and NKG2DL summary table used for Figure S7.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100_data.csv,Marker-gene dot-plot source data for Unstim CD28-CD3Z plus incubated CAR variants with more than 100 cells.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/FilteredCAR_cell_table_CellCycle_NKG2DL_with_Unstim_CD28_CD3Z.csv,"Filtered single-cell table with CAR variant, TCAT state, cell-cycle and NKG2DL annotations including Unstim CD28-CD3Z."
+Table S8,Table_S8_single_cell_CAR_variant_analysis/FilteredCAR_PieScatter_coordinates_CellCycle_NKG2DL_Zscore_with_Unstim_CD28_CD3Z.csv,Pie-scatter coordinates and z-scored cell-cycle/NKG2DL summaries for filtered CAR variants including Unstim CD28-CD3Z.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/FilteredCAR_pie_composition_with_Unstim_CD28_CD3Z.csv,Pie composition source data for filtered CAR variants including Unstim CD28-CD3Z.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/Library_only_TCAT_cluster_composition_by_CAR.csv,TCAT cluster/state composition by CAR variant used for Figure S5.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/Library_only_TCAT_vs_NKG2DL_correlation_table_with_SUM.csv,TCAT program correlation source table with individual NKG2DL ligands and NKG2DL_sum used for Figure S8.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/Library_only_TCAT_vs_NKG2DL_top_hits_with_SUM.csv,Top TCAT-NKG2DL correlation hits including NKG2DL_sum.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/Library_plus_Unstim28z_CAR_individual_NKG2DL_scores.csv,Individual NKG2D ligand scores by CAR variant including Unstim CD28-CD3Z used for Figure S6.
+Table S8,Table_S8_single_cell_CAR_variant_analysis/Library_plus_Unstim28z_CAR_NKG2DL_sum_scores.csv,Total NKG2DL score by CAR variant including Unstim CD28-CD3Z.
+Table S1,Table_S1_Clinical_trials/Table_S1_Clinical_trials.xlsx,Clinical trial and registry-level source table for NKG2D CAR-T studies in hematologic malignancies and solid tumors; reference numbers were harmonized with the updated manuscript bibliography.

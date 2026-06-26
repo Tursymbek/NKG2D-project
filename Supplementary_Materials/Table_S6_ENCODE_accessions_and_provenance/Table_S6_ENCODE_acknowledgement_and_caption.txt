@@ -1,5 +1,0 @@
-Acknowledgement text:
-We acknowledge the ENCODE Consortium and the ENCODE production laboratories that generated the TF ChIP-seq datasets used in this study. Dataset accession numbers and corresponding production laboratories are listed in Supplementary Table S6.
-
-Table caption:
-Table S6. ENCODE TF ChIP-seq datasets used for NKG2D ligand promoter-overlap analysis. The table lists ENCODE experiment accessions, file accessions, transcription factor targets, biosample or cell-line information, and the corresponding ENCODE production laboratories.
