@@ -1,0 +1,345 @@
+# -----------------------------------------------------------------------------
+# GSE214231 cytotoxicity/activation/proliferation marker dot plot
+#
+# Original archived script: Castellanos-Rueda et al. [76]/E - Cytotoxicity Activation Prolifaration.txt
+# Repository note: converted from .txt to .R and lightly path-normalized.
+# Raw public datasets are not bundled unless small derived outputs were present
+# in the deposited archive. See README.md and data/external/README.md.
+# -----------------------------------------------------------------------------
+
+## =========================================================
+## Dot plot of selected T cell marker genes by CAR variant
+##
+## Includes:
+## 1) Unstim CD28-CD3Z as the first group
+## 2) Incubated Library CAR T cells only
+## 3) CAR variants with >100 cells
+## 4) Cytotoxicity, Activation, Proliferation panels
+##
+## Dot size  = percent expressed
+## Dot color = scaled average expression
+## =========================================================
+
+suppressPackageStartupMessages({
+    library(Seurat)
+    library(dplyr)
+    library(tidyr)
+    library(ggplot2)
+    library(patchwork)
+    library(readr)
+    library(scales)
+    library(ggtext)
+})
+
+## =========================================================
+## 1. Load Seurat object
+## =========================================================
+
+seu <- readRDS("seurat_T_with_starCAT.rds")
+DefaultAssay(seu) <- "RNA"
+
+## Seurat v5 safety
+seu <- JoinLayers(seu, assay = "RNA")
+
+meta <- seu@meta.data
+meta$cell_barcode <- rownames(meta)
+
+## =========================================================
+## 2. Define marker genes
+## =========================================================
+
+gene_groups <- list(
+    Cytotoxicity = c(
+        "NKG7", "PRF1", "GZMB", "GZMA", "GNLY",
+        "GZMK", "GZMH", "KLRD1", "KLRK1", "KLRG1"
+    ),
+    
+    Activation = c(
+        "CRTAM", "IFNG", "RGS16", "TNFRSF9", "ID3",
+        "NPW", "LAIR2", "DUSP4", "LAYN", "IL2RA",
+        "TNFRSF4", "TNFRSF8", "TNFRSF18", "TNFSF13B"
+    ),
+    
+    Proliferation = c(
+        "MKI67", "TOP2A", "PCNA", "MCM2",
+        "MCM3", "MCM4", "CDK1", "CDC20"
+    )
+)
+
+## Keep only genes present in object
+gene_groups <- lapply(gene_groups, function(x) intersect(x, rownames(seu)))
+
+all_genes <- unique(unlist(gene_groups))
+
+cat("Genes used:\n")
+print(gene_groups)
+
+if (length(all_genes) == 0) {
+    stop("None of the selected marker genes were found in the Seurat object.")
+}
+
+## =========================================================
+## 3. Select groups
+## =========================================================
+
+min_cells <- 100
+
+valid_cars <- meta %>%
+    filter(
+        condition == "Library",
+        !is.na(CAR_Variant),
+        CAR_Variant != "",
+        CAR_Variant != "NA",
+        CAR_Variant != "D"
+    ) %>%
+    count(CAR_Variant, name = "n_cells") %>%
+    filter(n_cells > min_cells) %>%
+    arrange(desc(n_cells)) %>%
+    pull(CAR_Variant)
+
+cat("Valid incubated Library CAR variants >100 cells:\n")
+print(valid_cars)
+
+cells_use <- rownames(meta)[
+    meta$condition == "Unstim_28z" |
+        (
+            meta$condition == "Library" &
+                meta$CAR_Variant %in% valid_cars
+        )
+]
+
+seu_sub <- subset(seu, cells = cells_use)
+
+## =========================================================
+## 4. Create plotting group
+## IMPORTANT: no \n in group name, otherwise Excel breaks CSV rows
+## =========================================================
+
+seu_sub$DotPlot_Group <- ifelse(
+    seu_sub$condition == "Unstim_28z",
+    "<span style='color:#4A90C2;'>Unstim CD28-CD3Z</span>",
+    ifelse(
+        seu_sub$CAR_Variant == "CD223-CD79B",
+        "<span style='color:#E64B35;'>CD223-CD79B</span>",
+        as.character(seu_sub$CAR_Variant)
+    )
+)
+
+group_levels <- c(
+    "<span style='color:#4A90C2;'>Unstim CD28-CD3Z</span>",
+    ifelse(
+        valid_cars == "CD223-CD79B",
+        "<span style='color:#E64B35;'>CD223-CD79B</span>",
+        valid_cars
+    )
+)
+
+seu_sub$DotPlot_Group <- factor(
+    seu_sub$DotPlot_Group,
+    levels = group_levels
+)
+
+Idents(seu_sub) <- "DotPlot_Group"
+
+## =========================================================
+## 5. Function to calculate dot plot values manually
+## =========================================================
+
+make_dot_data <- function(seu_obj, genes, gene_group_name) {
+    
+    genes <- genes[genes %in% rownames(seu_obj)]
+    
+    if (length(genes) == 0) {
+        return(NULL)
+    }
+    
+    expr <- FetchData(seu_obj, vars = genes)
+    expr$DotPlot_Group <- as.character(seu_obj$DotPlot_Group)
+    
+    dat_long <- expr %>%
+        pivot_longer(
+            cols = all_of(genes),
+            names_to = "gene",
+            values_to = "expression"
+        ) %>%
+        group_by(DotPlot_Group, gene) %>%
+        summarise(
+            avg_exp = mean(expression, na.rm = TRUE),
+            pct_exp = 100 * mean(expression > 0, na.rm = TRUE),
+            .groups = "drop"
+        )
+    
+    dat_long <- dat_long %>%
+        complete(
+            DotPlot_Group = group_levels,
+            gene = genes,
+            fill = list(
+                avg_exp = 0,
+                pct_exp = 0
+            )
+        )
+    
+    dat_long <- dat_long %>%
+        group_by(gene) %>%
+        mutate(
+            avg_exp_scaled = {
+                s <- sd(avg_exp, na.rm = TRUE)
+                m <- mean(avg_exp, na.rm = TRUE)
+                
+                if (is.na(s) || s == 0) {
+                    rep(0, length(avg_exp))
+                } else {
+                    (avg_exp - m) / s
+                }
+            }
+        ) %>%
+        ungroup()
+    
+    dat_long$gene_group <- gene_group_name
+    
+    dat_long$DotPlot_Group <- factor(
+        dat_long$DotPlot_Group,
+        levels = group_levels
+    )
+    
+    dat_long$gene <- factor(
+        dat_long$gene,
+        levels = rev(genes)
+    )
+    
+    dat_long
+}
+
+plot_data <- bind_rows(
+    make_dot_data(seu_sub, gene_groups$Cytotoxicity, "Cytotoxicity"),
+    make_dot_data(seu_sub, gene_groups$Activation, "Activation"),
+    make_dot_data(seu_sub, gene_groups$Proliferation, "Proliferation")
+)
+
+write_csv(
+    plot_data,
+    "DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100_data.csv"
+)
+
+write_excel_csv2(
+    plot_data,
+    "DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100_data_excel.csv"
+)
+
+## =========================================================
+## 6. Plot function
+## =========================================================
+
+make_panel <- function(df, panel_name, show_x = FALSE) {
+    
+    p <- ggplot(
+        df %>% filter(gene_group == panel_name),
+        aes(
+            x = DotPlot_Group,
+            y = gene
+        )
+    ) +
+        geom_point(
+            aes(
+                size = pct_exp,
+                color = avg_exp_scaled
+            )
+        ) +
+        scale_color_gradient2(
+            low = "#3B78B8",
+            mid = "white",
+            high = "#E64B35",
+            midpoint = 0,
+            limits = c(-2, 2),
+            oob = scales::squish,
+            name = "Average\nExpression"
+        ) +
+        scale_size(
+            range = c(0.2, 6),
+            limits = c(0, 100),
+            breaks = c(0, 25, 50, 75, 100),
+            name = "Percent\nExpressed"
+        ) +
+        theme_classic(base_size = 18) +
+        theme(
+            axis.title = element_blank(),
+            axis.text.y = element_text(
+                size = 16,
+                color = "black"
+            ),
+            axis.text.x = ggtext::element_markdown(
+                size = 14,
+                color = "black",
+                angle = 90,
+                hjust = 1,
+                vjust = 0.5
+            ),
+            axis.ticks.x = element_blank(),
+            panel.border = element_rect(
+                color = "black",
+                fill = NA,
+                linewidth = 0.6
+            ),
+            plot.title = element_text(
+                size = 18,
+                face = "bold",
+                hjust = 0.5
+            ),
+            legend.position = "right"
+        ) +
+        labs(title = panel_name)
+    
+    if (!show_x) {
+        p <- p +
+            theme(
+                axis.text.x = element_blank()
+            )
+    }
+    
+    p
+}
+
+p1 <- make_panel(plot_data, "Cytotoxicity", show_x = FALSE)
+p2 <- make_panel(plot_data, "Activation", show_x = FALSE)
+p3 <- make_panel(plot_data, "Proliferation", show_x = TRUE)
+
+## =========================================================
+## 7. Combine panels
+## =========================================================
+
+final_plot <- p1 / p2 / p3 +
+    plot_layout(
+        heights = c(
+            length(gene_groups$Cytotoxicity),
+            length(gene_groups$Activation),
+            length(gene_groups$Proliferation)
+        ),
+        guides = "collect"
+    ) &
+    theme(
+        legend.position = "right"
+    )
+
+ggsave(
+    "DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100.png",
+    final_plot,
+    width = 10,
+    height = 12,
+    dpi = 300
+)
+
+ggsave(
+    "DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100.pdf",
+    final_plot,
+    width = 10,
+    height = 12
+)
+
+final_plot
+
+cat("\nDone.\n")
+cat("Created files:\n")
+cat("- DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100_data.csv\n")
+cat("- DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100_data_excel.csv\n")
+cat("- DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100.png\n")
+cat("- DotPlot_marker_genes_Unstim28z_plus_incubated_CAR_gt100.pdf\n")

@@ -1,0 +1,15 @@
+script,original_file,method
+scripts/01_tcga_gtex_nkg2dl_score.R,GTEX/TCGA GTEX NKG2D ligands.txt,TCGA/GTEx NKG2DL score and tumor-normal plots
+scripts/02_depmap_nkg2dl_expression_distribution.R,DepMap/Distribution/NKG2DL distribution.txt,DepMap/CCLE NKG2DL expression distribution
+scripts/03_depmap_nkg2dl_crispr_gene_effect.R,DepMap/Gene effect/Script for Chronos gene effect score.txt,DepMap Chronos CRISPR gene-effect analysis
+scripts/04_taiji_tf_activity_summary.R,Taiji/Script.txt,Taiji transcription-factor PageRank summary
+scripts/05_encode_tf_chipseq_promoter_overlap.R,after Taiji TF ChIP Seq/NKG2DL_overlap_results/Script with clusters.txt,ENCODE TF ChIP-seq promoter overlap heatmaps
+scripts/06_gse214231_starcat_data_preparation.R,Castellanos-Rueda et al. [76]/1 - Data preparation TCAT.txt,GSE214231 Seurat preprocessing and starCAT export
+scripts/07_gse214231_umap_and_composition.R,Castellanos-Rueda et al. [76]/A - UMAP Composition.txt,GSE214231 UMAP and TCAT composition
+scripts/08_gse214231_nkg2dl_car_scores.R,Castellanos-Rueda et al. [76]/B - NKG2D ligand SUM score by CAR Library.txt,GSE214231 CAR-level NKG2DL score analysis
+scripts/09_gse214231_cell_cycle_nkg2dl.R,"Castellanos-Rueda et al. [76]/C, D - Cell Cycle NKG2DL.txt",GSE214231 CAR cell-cycle and NKG2DL pie-scatter analysis
+scripts/10_gse214231_marker_dotplot.R,Castellanos-Rueda et al. [76]/E - Cytotoxicity Activation Prolifaration.txt,GSE214231 cytotoxicity/activation/proliferation marker dot plot
+scripts/11_gse214231_tcat_nkg2dl_correlation.R,Castellanos-Rueda et al. [76]/F - TCAT program and NKG2D level.txt,GSE214231 TCAT-program and NKG2DL correlation
+scripts/12_gse214231_ligand_correlations_clean.R,Castellanos-Rueda et al. [76]/06_Correlation_with_ligands_clean.txt,GSE214231 clean correlation analysis with NKG2D ligands
+scripts/13_gse249511_bulk_rnaseq_gene_annotation.R,Obajdin et al. [72]/Script annotation.txt,GSE249511 transcript-to-gene annotation and count preparation
+scripts/14_gse249511_bulk_dotplot_with_nkg2dl.R,Obajdin et al. [72]/Script for dot plot red blue.txt,GSE249511 CAR-vs-UTD DESeq2 dot plot with NKG2DL genes

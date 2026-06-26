@@ -1,0 +1,235 @@
+## =========================================================
+## Bulk RNA-seq dot plot: CAR vs UTD
+## Color = log2FC
+## Size  = -log10(padj)
+## Shows all NKG2D ligands, including ULBP4/5/6 labels
+## =========================================================
+
+suppressPackageStartupMessages({
+    library(dplyr)
+    library(readr)
+    library(tidyr)
+    library(ggplot2)
+    library(patchwork)
+    library(scales)
+    library(ggtext)
+})
+
+
+ligand_label_map <- c(
+    "MICA"   = "MICA",
+    "MICB"   = "MICB",
+    "ULBP1"  = "ULBP1",
+    "ULBP2"  = "ULBP2",
+    "ULBP3"  = "ULBP3",
+    "RAET1E" = "ULBP4",
+    "RAET1G" = "ULBP5",
+    "RAET1L" = "ULBP6"
+)
+
+gene_groups <- list(
+    Cytotoxicity = c(
+        "NKG7", "PRF1", "GZMB", "GZMA", "GNLY",
+        "GZMK", "GZMH", "KLRD1", "KLRK1", "KLRG1"
+    ),
+    
+    Activation = c(
+        "CRTAM", "IFNG", "RGS16", "TNFRSF9", "ID3",
+        "NPW", "LAIR2", "DUSP4", "LAYN", "IL2RA",
+        "TNFRSF4", "TNFRSF8", "TNFRSF18", "TNFSF13B"
+    ),
+    
+    Proliferation = c(
+        "MKI67", "TOP2A", "PCNA", "MCM2",
+        "MCM3", "MCM4", "CDK1", "CDC20"
+    ),
+    
+    `NKG2D ligands` = c(
+        "MICA", "MICB",
+        "ULBP1", "ULBP2", "ULBP3",
+        "RAET1E", "RAET1G", "RAET1L"
+    )
+)
+
+res_files <- c(
+    "NKG2D_vs_UTD.csv",
+    "N_1012_vs_UTD.csv",
+    "NZ_vs_UTD.csv",
+    "NZ_10_vs_UTD.csv",
+    "N_10Z_vs_UTD.csv"
+)
+
+names(res_files) <- c(
+    "NKG2D",
+    "NKG2D/Dap10-12",
+    "NKG2D-CD3ζ",
+    "NKG2D-CD3ζ/Dap10",
+    "NKG2D/Dap10-CD3ζ"
+)
+
+car_axis_labels <- c(
+    "NKG2D" = "<span style='color:#3A9FD1; font-weight:bold;'>NKG2D</span>",
+    "NKG2D/Dap10-12" = "<span style='color:#E64B35; font-weight:bold;'>NKG2D/Dap10-12</span>",
+    "NKG2D-CD3ζ" = "NKG2D-CD3ζ",
+    "NKG2D-CD3ζ/Dap10" = "NKG2D-CD3ζ/Dap10",
+    "NKG2D/Dap10-CD3ζ" = "NKG2D/Dap10-CD3ζ"
+)
+
+gene_group_df <- bind_rows(
+    lapply(names(gene_groups), function(group_name) {
+        tibble(
+            gene = gene_groups[[group_name]],
+            gene_group = group_name
+        )
+    })
+)
+
+all_genes <- unique(gene_group_df$gene)
+
+plot_data <- bind_rows(
+    lapply(names(res_files), function(car_name) {
+        
+        read_csv(res_files[[car_name]], show_col_types = FALSE) %>%
+            filter(gene %in% all_genes) %>%
+            mutate(
+                CAR = car_name,
+                neg_log10_padj = -log10(padj),
+                neg_log10_padj = ifelse(is.infinite(neg_log10_padj), 20, neg_log10_padj),
+                neg_log10_padj = ifelse(is.na(neg_log10_padj), 0, neg_log10_padj)
+            )
+    })
+) %>%
+    complete(
+        CAR = names(res_files),
+        gene = all_genes,
+        fill = list(
+            log2FoldChange = 0,
+            padj = NA_real_,
+            neg_log10_padj = 0
+        )
+    ) %>%
+    left_join(gene_group_df, by = "gene") %>%
+    mutate(
+        CAR = factor(CAR, levels = names(res_files)),
+        gene_group = factor(gene_group, levels = names(gene_groups)),
+        gene_label = ifelse(
+            gene %in% names(ligand_label_map),
+            ligand_label_map[gene],
+            gene
+        )
+    )
+
+write_csv(
+    plot_data,
+    "Bulk_DESeq2_dotplot_CAR_vs_UTD_with_NKG2DL_data.csv"
+)
+
+make_panel <- function(df, panel_name, show_x = FALSE) {
+    
+    genes_panel <- gene_groups[[panel_name]]
+    
+    label_levels <- ifelse(
+        genes_panel %in% names(ligand_label_map),
+        ligand_label_map[genes_panel],
+        genes_panel
+    )
+    
+    df_panel <- df %>%
+        filter(gene_group == panel_name) %>%
+        mutate(
+            gene_label = factor(
+                gene_label,
+                levels = rev(label_levels)
+            )
+        )
+    
+    p <- ggplot(
+        df_panel,
+        aes(x = CAR, y = gene_label)
+    ) +
+        geom_point(
+            aes(
+                color = log2FoldChange,
+                size = neg_log10_padj
+            )
+        ) +
+        scale_color_gradient2(
+            low = "#3A9FD1",
+            mid = "white",
+            high = "#E64B35",
+            midpoint = 0,
+            limits = c(-3, 3),
+            oob = scales::squish,
+            name = "log2FC\nvs UTD"
+        ) +
+                scale_x_discrete(
+            labels = car_axis_labels
+        ) +
+        theme_classic(base_size = 18) +
+        theme(
+            axis.title = element_blank(),
+            axis.text.y = element_text(size = 16, color = "black"),
+            axis.text.x = ggtext::element_markdown(
+                size = 14,
+                color = "black",
+                angle = 90,
+                hjust = 1,
+                vjust = 0.5
+            ),
+            axis.ticks.x = element_blank(),
+            panel.border = element_rect(
+                color = "black",
+                fill = NA,
+                linewidth = 0.7
+            ),
+            plot.title = element_text(
+                size = 20,
+                face = "bold",
+                hjust = 0.5
+            ),
+            legend.position = "right"
+        ) +
+        labs(title = panel_name)
+    
+    if (!show_x) {
+        p <- p + theme(axis.text.x = element_blank())
+    }
+    
+    p
+}
+
+p1 <- make_panel(plot_data, "Cytotoxicity", show_x = FALSE)
+p2 <- make_panel(plot_data, "Activation", show_x = FALSE)
+p3 <- make_panel(plot_data, "Proliferation", show_x = FALSE)
+p4 <- make_panel(plot_data, "NKG2D ligands", show_x = TRUE)
+
+final_plot <- p1 / p2 / p3 / p4 +
+    plot_layout(
+        heights = c(
+            length(gene_groups$Cytotoxicity),
+            length(gene_groups$Activation),
+            length(gene_groups$Proliferation),
+            length(gene_groups$`NKG2D ligands`)
+        ),
+        guides = "collect"
+    ) &
+    theme(
+        legend.position = "right"
+    )
+
+ggsave(
+    "Bulk_DESeq2_dotplot_CAR_vs_UTD_with_NKG2DL.png",
+    final_plot,
+    width = 8,
+    height = 13,
+    dpi = 300
+)
+
+ggsave(
+    "Bulk_DESeq2_dotplot_CAR_vs_UTD_with_NKG2DL.pdf",
+    final_plot,
+    width = 8,
+    height = 13
+)
+
+final_plot

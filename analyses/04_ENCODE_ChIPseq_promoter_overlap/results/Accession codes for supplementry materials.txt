@@ -1,0 +1,209 @@
+## =========================================================
+## Create Table S6 from ENCODE metadata
+## Experiment | BigWig file | Bed file | Target | Tissue / cell line
+## =========================================================
+
+suppressPackageStartupMessages({
+    library(data.table)
+    library(dplyr)
+    library(stringr)
+    library(tidyr)
+    library(writexl)
+})
+
+## ---------- TF list used in analysis ----------
+tf_list_file <- file.path(chip_dir, "TF_list_High_enriched_ENCODE_available.txt")
+
+if (!file.exists(tf_list_file)) {
+    stop("TF list file not found here: ", tf_list_file)
+}
+
+target_tfs <- fread(
+    file = tf_list_file,
+    header = FALSE
+)[[1]]
+
+target_tfs <- target_tfs %>%
+    as.character() %>%
+    str_trim() %>%
+    toupper()
+
+target_tfs <- target_tfs[target_tfs != ""]
+target_tfs <- unique(target_tfs)
+
+cat("TFs loaded from file:", length(target_tfs), "\n")
+print(target_tfs)
+
+## ---------- clean metadata ----------
+meta_clean <- meta_full %>%
+    mutate(
+        Experiment = as.character(`Experiment accession`),
+        File_accession = as.character(`File accession`),
+        File_format = as.character(`File format`),
+        File_format_type = as.character(`File format type`),
+        Output_type = as.character(`Output type`),
+        Assay_clean = as.character(Assay),
+        Target_raw = as.character(`Experiment target`),
+        Target = toupper(Target_raw),
+        Target = str_replace(Target, "-HUMAN.*$", ""),
+        Target = str_replace(Target, "\\s+.*$", ""),
+        Tissue = as.character(`Biosample term name`),
+        File_status = as.character(`File Status`)
+    ) %>%
+    filter(
+        Assay_clean == "TF ChIP-seq",
+        Target %in% target_tfs
+    )
+
+## ---------- optional: keep only BED files that are present locally ----------
+local_peak_files <- list.files(
+    chip_dir,
+    pattern = "\\.bed\\.gz$|\\.bed$|\\.narrowPeak\\.gz$|\\.broadPeak\\.gz$",
+    full.names = FALSE,
+    recursive = FALSE
+)
+
+local_peak_accessions <- str_extract(local_peak_files, "ENCFF[0-9A-Z]+")
+
+local_peak_accessions <- local_peak_accessions[!is.na(local_peak_accessions)]
+
+cat("Local peak files found:", length(local_peak_accessions), "\n")
+
+## If local BED files are found, restrict table to experiments actually used
+if (length(local_peak_accessions) > 0) {
+    
+    used_experiments <- meta_clean %>%
+        filter(File_accession %in% local_peak_accessions) %>%
+        pull(Experiment) %>%
+        unique()
+    
+    meta_clean <- meta_clean %>%
+        filter(Experiment %in% used_experiments)
+    
+    cat("Experiments retained from local files:", length(used_experiments), "\n")
+}
+
+## =========================================================
+## BED / peak files: each accession in separate column
+## =========================================================
+
+bed_tbl_long <- meta_clean %>%
+    filter(
+        File_accession %in% local_peak_accessions |
+            str_detect(tolower(File_format), "bed") |
+            str_detect(tolower(File_format_type), "narrowpeak|broadpeak|bed")
+    ) %>%
+    distinct(Experiment, Target, Tissue, File_accession, Output_type) %>%
+    arrange(Experiment, Target, Tissue, File_accession) %>%
+    group_by(Experiment, Target, Tissue) %>%
+    mutate(file_number = row_number()) %>%
+    ungroup()
+
+bed_tbl <- bed_tbl_long %>%
+    select(Experiment, Target, Tissue, file_number, File_accession) %>%
+    pivot_wider(
+        names_from = file_number,
+        values_from = File_accession,
+        names_prefix = "Bed file "
+    )
+
+bed_output_tbl <- bed_tbl_long %>%
+    group_by(Experiment, Target, Tissue) %>%
+    summarise(
+        `Bed output type` = paste(sort(unique(Output_type)), collapse = "; "),
+        .groups = "drop"
+    )
+
+bed_tbl <- bed_tbl %>%
+    left_join(bed_output_tbl, by = c("Experiment", "Target", "Tissue"))
+
+
+## =========================================================
+## BigWig files: each accession in separate column
+## =========================================================
+
+bigwig_tbl_long <- meta_clean %>%
+    filter(
+        str_detect(tolower(File_format), "bigwig") |
+            str_detect(tolower(File_format_type), "bigwig")
+    ) %>%
+    distinct(Experiment, Target, Tissue, File_accession, Output_type) %>%
+    arrange(Experiment, Target, Tissue, File_accession) %>%
+    group_by(Experiment, Target, Tissue) %>%
+    mutate(file_number = row_number()) %>%
+    ungroup()
+
+bigwig_tbl <- bigwig_tbl_long %>%
+    select(Experiment, Target, Tissue, file_number, File_accession) %>%
+    pivot_wider(
+        names_from = file_number,
+        values_from = File_accession,
+        names_prefix = "BigWig file "
+    )
+
+bigwig_output_tbl <- bigwig_tbl_long %>%
+    group_by(Experiment, Target, Tissue) %>%
+    summarise(
+        `BigWig output type` = paste(sort(unique(Output_type)), collapse = "; "),
+        .groups = "drop"
+    )
+
+bigwig_tbl <- bigwig_tbl %>%
+    left_join(bigwig_output_tbl, by = c("Experiment", "Target", "Tissue"))
+
+
+## =========================================================
+## Final Table S6
+## =========================================================
+
+table_s6 <- bed_tbl %>%
+    full_join(
+        bigwig_tbl,
+        by = c("Experiment", "Target", "Tissue")
+    ) %>%
+    mutate(
+        Tissue = ifelse(is.na(Tissue) | Tissue == "", "-", Tissue)
+    ) %>%
+    rename(`Tissue / cell line` = Tissue) %>%
+    arrange(Target, `Tissue / cell line`, Experiment)
+
+## Replace empty cells with "-"
+table_s6[is.na(table_s6)] <- "-"
+
+## Optional: reorder columns
+basic_cols <- c("Experiment", "Target", "Tissue / cell line")
+bigwig_cols <- grep("^BigWig file", colnames(table_s6), value = TRUE)
+bed_cols <- grep("^Bed file", colnames(table_s6), value = TRUE)
+other_cols <- setdiff(colnames(table_s6), c(basic_cols, bigwig_cols, bed_cols))
+
+table_s6 <- table_s6 %>%
+    select(
+        Experiment,
+        all_of(bigwig_cols),
+        all_of(bed_cols),
+        Target,
+        `Tissue / cell line`,
+        all_of(other_cols)
+    )
+
+
+## =========================================================
+## Save
+## =========================================================
+
+write.csv(
+    table_s6,
+    file.path(out_dir, "Table_S6_ENCODE_TF_ChIPseq_accession_codes_separate_cells.csv"),
+    row.names = FALSE
+)
+
+writexl::write_xlsx(
+    table_s6,
+    file.path(out_dir, "Table_S6_ENCODE_TF_ChIPseq_accession_codes_separate_cells.xlsx")
+)
+
+cat("\nDONE: Table S6 saved with accession codes in separate cells\n")
+cat("Rows:", nrow(table_s6), "\n")
+cat("Columns:", ncol(table_s6), "\n")
+cat(file.path(out_dir, "Table_S6_ENCODE_TF_ChIPseq_accession_codes_separate_cells.xlsx"), "\n")
+

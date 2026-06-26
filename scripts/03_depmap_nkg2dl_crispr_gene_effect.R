@@ -1,0 +1,284 @@
+# -----------------------------------------------------------------------------
+# DepMap Chronos CRISPR gene-effect analysis
+#
+# Original archived script: DepMap/Gene effect/Script for Chronos gene effect score.txt
+# Repository note: converted from .txt to .R and lightly path-normalized.
+# Raw public datasets are not bundled unless small derived outputs were present
+# in the deposited archive. See README.md and data/external/README.md.
+# -----------------------------------------------------------------------------
+
+# =========================================================
+# DepMap: Essentiality of NKG2D ligands
+# File needed: CRISPRGeneEffect.csv
+# Colors: same blue style as previous graph
+# Gene labels: MICA, MICB, ULBP1, ULBP2, ULBP3, ULBP4, ULBP5, ULBP6
+# =========================================================
+
+library(data.table)
+library(dplyr)
+library(ggplot2)
+library(stringr)
+library(tidyr)
+
+# -----------------------------
+# 1. Files
+# -----------------------------
+dep_file   <- "CRISPRGeneEffect.csv"
+model_file <- "Model.csv"
+
+# -----------------------------
+# 2. Load data
+# -----------------------------
+dep   <- fread(dep_file, data.table = FALSE)
+model <- fread(model_file, data.table = FALSE)
+
+colnames(dep)[1] <- "ModelID"
+
+dep$ModelID   <- as.character(dep$ModelID)
+model$ModelID <- as.character(model$ModelID)
+
+# -----------------------------
+# 3. Clean gene names
+# -----------------------------
+colnames(dep)[-1] <- str_replace(colnames(dep)[-1], "\\s*\\(.*\\)$", "")
+
+# Remove duplicated gene columns
+dep <- dep[, !duplicated(colnames(dep))]
+
+# -----------------------------
+# 4. NKG2D ligand genes
+# DepMap names: RAET1E/G/L
+# Display names: ULBP4/5/6
+# -----------------------------
+nkg2d_genes <- c(
+    "MICA", "MICB",
+    "ULBP1", "ULBP2", "ULBP3",
+    "RAET1E", "RAET1G", "RAET1L"
+)
+
+present_genes <- intersect(nkg2d_genes, colnames(dep))
+missing_genes <- setdiff(nkg2d_genes, colnames(dep))
+
+print("Present genes:")
+print(present_genes)
+
+print("Missing genes:")
+print(missing_genes)
+
+if (length(present_genes) == 0) {
+    stop("No NKG2D ligand genes found in CRISPRGeneEffect.csv")
+}
+
+# -----------------------------
+# 5. Add metadata
+# -----------------------------
+meta_cols <- intersect(
+    c(
+        "ModelID",
+        "CellLineName",
+        "StrippedCellLineName",
+        "CCLEName",
+        "OncotreeLineage",
+        "OncotreePrimaryDisease",
+        "OncotreeSubtype"
+    ),
+    colnames(model)
+)
+
+dep_df <- dep %>%
+    dplyr::select(ModelID, all_of(present_genes)) %>%
+    left_join(model[, meta_cols, drop = FALSE], by = "ModelID")
+
+fwrite(
+    dep_df,
+    "DepMap_NKG2DL_CRISPRGeneEffect_wide.tsv",
+    sep = "\t"
+)
+
+# -----------------------------
+# 6. Long format + rename display genes
+# -----------------------------
+dep_long <- dep_df %>%
+    pivot_longer(
+        cols = all_of(present_genes),
+        names_to = "Gene",
+        values_to = "GeneEffect"
+    ) %>%
+    filter(!is.na(GeneEffect)) %>%
+    mutate(
+        Gene = recode(
+            Gene,
+            "RAET1E" = "ULBP4",
+            "RAET1G" = "ULBP5",
+            "RAET1L" = "ULBP6"
+        ),
+        Gene = factor(
+            Gene,
+            levels = c(
+                "MICA", "MICB",
+                "ULBP1", "ULBP2", "ULBP3",
+                "ULBP4", "ULBP5", "ULBP6"
+            )
+        )
+    )
+
+fwrite(
+    dep_long,
+    "DepMap_NKG2DL_CRISPRGeneEffect_long.tsv",
+    sep = "\t"
+)
+
+# -----------------------------
+# 7. Summary table
+# -----------------------------
+summary_tbl <- dep_long %>%
+    group_by(Gene) %>%
+    summarise(
+        n_cell_lines = n(),
+        mean_effect = mean(GeneEffect, na.rm = TRUE),
+        median_effect = median(GeneEffect, na.rm = TRUE),
+        min_effect = min(GeneEffect, na.rm = TRUE),
+        max_effect = max(GeneEffect, na.rm = TRUE),
+        percent_below_minus_0_5 = mean(GeneEffect < -0.5, na.rm = TRUE) * 100,
+        percent_below_minus_1 = mean(GeneEffect < -1, na.rm = TRUE) * 100,
+        .groups = "drop"
+    ) %>%
+    arrange(Gene)
+
+fwrite(
+    summary_tbl,
+    "DepMap_NKG2DL_CRISPRGeneEffect_summary.tsv",
+    sep = "\t"
+)
+
+print(summary_tbl)
+
+# -----------------------------
+# 8. Colors
+# -----------------------------
+main_blue <- "#3A9FD1"
+dark_blue <- "#1F5F7A"
+
+# -----------------------------
+# 9. Common larger text theme
+# -----------------------------
+common_theme <- theme(
+    plot.title = element_text(face = "bold", size = 18, hjust = 0.5),
+    axis.title = element_text(face = "bold", size = 18),
+    axis.text = element_text(size = 18, color = "black"),
+    legend.title = element_text(size = 18, face = "bold"),
+    legend.text = element_text(size = 18),
+    axis.line = element_line(linewidth = 0.7),
+    panel.grid = element_blank()
+)
+
+# -----------------------------
+# 10. Boxplot: dependency by ligand
+# -----------------------------
+p_box <- ggplot(dep_long, aes(x = Gene, y = GeneEffect)) +
+    geom_hline(yintercept = 0, linetype = "dashed", color = "grey40", linewidth = 0.8) +
+    geom_hline(yintercept = -0.5, linetype = "dotted", color = "grey30", linewidth = 0.8) +
+    geom_hline(yintercept = -1, linetype = "dotted", color = "grey10", linewidth = 0.8) +
+    geom_boxplot(
+        fill = main_blue,
+        color = dark_blue,
+        outlier.alpha = 0.25,
+        outlier.size = 1
+    ) +
+    theme_classic(base_size = 17) +
+    labs(
+        title = "CRISPR dependency of NKG2D ligands across DepMap cell lines",
+        x = "NKG2D ligand",
+        y = "Gene effect score"
+    ) +
+    common_theme +
+    theme(
+        axis.text.x = element_text(size = 15, color = "black", angle = 45, hjust = 1)
+    )
+
+ggsave(
+    "DepMap_NKG2DL_CRISPRGeneEffect_boxplot.png",
+    p_box,
+    width = 8,
+    height = 5,
+    dpi = 300
+)
+
+# -----------------------------
+# 11. Density plot
+# -----------------------------
+p_density <- ggplot(dep_long, aes(x = GeneEffect, fill = Gene)) +
+    geom_density(
+        alpha = 0.35,
+        color = dark_blue,
+        linewidth = 0.8
+    ) +
+    geom_vline(xintercept = 0, linetype = "dashed", color = "grey40", linewidth = 0.8) +
+    geom_vline(xintercept = -0.5, linetype = "dotted", color = "grey30", linewidth = 0.8) +
+    geom_vline(xintercept = -1, linetype = "dotted", color = "grey10", linewidth = 0.8) +
+    theme_classic(base_size = 17) +
+    labs(
+        title = "Distribution of NKG2D ligand gene effects",
+        x = "Gene effect score",
+        y = "Density",
+        fill = "Gene"
+    ) +
+    common_theme
+
+ggsave(
+    "DepMap_NKG2DL_CRISPRGeneEffect_density.png",
+    p_density,
+    width = 8,
+    height = 5,
+    dpi = 300
+)
+
+# -----------------------------
+# 12. Histogram for all ligands combined
+# -----------------------------
+p_hist <- ggplot(dep_long, aes(x = GeneEffect)) +
+    geom_histogram(
+        bins = 60,
+        fill = main_blue,
+        color = "white",
+        linewidth = 0.25
+    ) +
+    geom_vline(xintercept = 0, linetype = "dashed", color = "grey40", linewidth = 0.8) +
+    geom_vline(xintercept = -0.5, linetype = "dotted", color = "grey30", linewidth = 0.8) +
+    geom_vline(xintercept = -1, linetype = "dotted", color = "grey10", linewidth = 0.8) +
+    theme_classic(base_size = 17) +
+    labs(
+        title = "Overall distribution of NKG2D ligand CRISPR gene effects",
+        x = "Gene effect score",
+        y = "Number of observations"
+    ) +
+    common_theme
+
+ggsave(
+    "DepMap_NKG2DL_CRISPRGeneEffect_histogram.png",
+    p_hist,
+    width = 8,
+    height = 5,
+    dpi = 300
+)
+
+# -----------------------------
+# 13. Top essential-like cases
+# -----------------------------
+top_essential_like <- dep_long %>%
+    arrange(GeneEffect) %>%
+    dplyr::select(
+        ModelID,
+        any_of(c("CellLineName", "OncotreeLineage", "OncotreePrimaryDisease")),
+        Gene,
+        GeneEffect
+    ) %>%
+    head(50)
+
+fwrite(
+    top_essential_like,
+    "Top50_NKG2DL_most_negative_gene_effect.tsv",
+    sep = "\t"
+)
+
+cat("Done.\n")

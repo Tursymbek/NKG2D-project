@@ -1,0 +1,51 @@
+ModelID	CellLineName	OncotreeLineage	OncotreePrimaryDisease	Gene	GeneEffect
+ACH-001793	LPS27	Soft Tissue	Liposarcoma	ULBP6	-1.39531127560708
+ACH-001498	Farage	Lymphoid	Mature B-Cell Neoplasms	ULBP2	-0.951399243585622
+ACH-000928	JHUEM-1	Uterus	Endometrial Carcinoma	ULBP3	-0.93314945804627
+ACH-001300	CHLA-15	Peripheral Nervous System	Neuroblastoma	ULBP2	-0.840999696616465
+ACH-000242	RT4	Bladder/Urinary Tract	Bladder Urothelial Carcinoma	MICB	-0.821954564991015
+ACH-000374	HCC1143	Breast	Invasive Breast Carcinoma	MICB	-0.818066444590299
+ACH-000604	KYO-1	Myeloid	Myeloproliferative Neoplasms	ULBP2	-0.814831984980197
+ACH-000916	NCI-H1573	Lung	Non-Small Cell Lung Cancer	ULBP3	-0.801456307225395
+ACH-002278	NB10	Peripheral Nervous System	Neuroblastoma	MICB	-0.75112808658488
+ACH-001694	UPCI-SCC-074	Head and Neck	Head and Neck Squamous Cell Carcinoma	MICB	-0.722527563652433
+ACH-000783	CAMA-1	Breast	Invasive Breast Carcinoma	MICB	-0.718744061790384
+ACH-000762	YD-38	Head and Neck	Head and Neck Squamous Cell Carcinoma	ULBP2	-0.705918761620544
+ACH-001345	GP5d	Bowel	Colorectal Adenocarcinoma	ULBP6	-0.705185330948027
+ACH-001793	LPS27	Soft Tissue	Liposarcoma	ULBP3	-0.70152986954969
+ACH-000971	HCT 116	Bowel	Colorectal Adenocarcinoma	ULBP2	-0.697105206489827
+ACH-001274	SW982	Soft Tissue	Synovial Sarcoma	ULBP2	-0.660079435939004
+ACH-000953	SUP-T1	Lymphoid	T-Lymphoblastic Leukemia/Lymphoma	ULBP6	-0.659078929208427
+ACH-000799	Hs 695T	Skin	Melanoma	MICB	-0.648173575774983
+ACH-001793	LPS27	Soft Tissue	Liposarcoma	ULBP1	-0.641044831017159
+ACH-000336	OCI-AML3	Myeloid	Acute Myeloid Leukemia	ULBP2	-0.640762875108587
+ACH-002512	MM160113	Skin	Melanoma	ULBP3	-0.640710411790547
+ACH-000928	JHUEM-1	Uterus	Endometrial Carcinoma	ULBP2	-0.637781972202382
+ACH-000325	SNU-620	Esophagus/Stomach	Esophagogastric Adenocarcinoma	ULBP3	-0.635624263505735
+ACH-000304	WM-115	Skin	Melanoma	ULBP6	-0.620556422672218
+ACH-000958	SW48	Bowel	Colorectal Adenocarcinoma	ULBP6	-0.620057009425092
+ACH-000251	NCI-H2887	Lung	Non-Small Cell Lung Cancer	MICB	-0.612894360117516
+ACH-000547	HT-1197	Bladder/Urinary Tract	Bladder Urothelial Carcinoma	ULBP3	-0.609919451505397
+ACH-000724	HT-1376	Bladder/Urinary Tract	Bladder Urothelial Carcinoma	MICB	-0.608414392379335
+ACH-000541	KMS-34	Lymphoid	Mature B-Cell Neoplasms	MICB	-0.608235142004274
+ACH-000295	EM-2	Myeloid	Myeloproliferative Neoplasms	ULBP2	-0.597675544755078
+ACH-000402	BL-70	Lymphoid	Mature B-Cell Neoplasms	ULBP2	-0.592632636682749
+ACH-002228	D-423MG	CNS/Brain	Diffuse Glioma	MICB	-0.590884527704526
+ACH-000573	MDA-MB-436	Breast	Invasive Breast Carcinoma	ULBP2	-0.584753078607557
+ACH-000604	KYO-1	Myeloid	Myeloproliferative Neoplasms	ULBP3	-0.579027685146323
+ACH-001392	SUM-185PE	Breast	Invasive Breast Carcinoma	ULBP3	-0.571204688865644
+ACH-000579	UACC-257	Skin	Melanoma	MICB	-0.566650569601913
+ACH-000315	KARPAS-422	Lymphoid	Mature B-Cell Neoplasms	ULBP2	-0.564899895370109
+ACH-000512	INA6	Lymphoid	Mature B-Cell Neoplasms	MICB	-0.564746126705713
+ACH-000202	COLO-320	Bowel	Colorectal Adenocarcinoma	MICA	-0.561946111207538
+ACH-000778	HSC-3	Head and Neck	Head and Neck Squamous Cell Carcinoma	MICB	-0.561180965299129
+ACH-000996	HEC-251	Uterus	Endometrial Carcinoma	MICB	-0.552122711339966
+ACH-000286	SNU-1033	Bowel	Colorectal Adenocarcinoma	ULBP6	-0.547664070623643
+ACH-000252	LS1034	Bowel	Colorectal Adenocarcinoma	ULBP2	-0.546758122408509
+ACH-001618	OCI-M2	Myeloid	Acute Myeloid Leukemia	ULBP2	-0.544214622649644
+ACH-000484	VMRC-RCW	Kidney	Renal Cell Carcinoma	ULBP3	-0.535531861735579
+ACH-001502	GCT-27	Testis	Non-Seminomatous Germ Cell Tumor	MICB	-0.535149158484492
+ACH-001674	TGW	Peripheral Nervous System	Neuroblastoma	MICB	-0.530805333397925
+ACH-000963	CCK-81	Bowel	Colorectal Adenocarcinoma	MICB	-0.529859148197855
+ACH-001619	OCUG-1	Biliary Tract	Intracholecystic Papillary Neoplasm	MICB	-0.529526523784108
+ACH-001310	HA1E	Kidney	Non-Cancerous	MICB	-0.529013958027128

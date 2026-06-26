@@ -1,0 +1,23 @@
+# R session/cache files
+.Rhistory
+.RData
+.RDataTmp
+.Rproj.user/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+*.tmp
+*.bak
+
+# Large external raw datasets: download locally into data/external/
+data/external/*
+!data/external/README.md
+
+# Taiji / workflow temporary files
+*.db
+sciflow.db
+
+# Python/R temporary caches
+__pycache__/
+.ipynb_checkpoints/
